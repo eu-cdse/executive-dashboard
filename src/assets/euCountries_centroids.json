@@ -1,0 +1,413 @@
+{
+  "type": "FeatureCollection",
+  "name": "euCountries_centroids",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Iceland",
+        "key": "iceland",
+        "ISO_A3": "ISL",
+        "ISO_A2": "IS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-18.909062, 65.305696]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Cyprus",
+        "key": "cyprus",
+        "ISO_A3": "CYP",
+        "ISO_A2": "CY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [33.439038, 35.179157]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Austria",
+        "key": "austria",
+        "ISO_A3": "AUT",
+        "ISO_A2": "AT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.13067286782481, 47.585656922871785]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Belgium",
+        "key": "belgium",
+        "ISO_A3": "BEL",
+        "ISO_A2": "BE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [4.639960503260024, 50.637461636452208]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Bulgaria",
+        "key": "bulgaria",
+        "ISO_A3": "BGR",
+        "ISO_A2": "BG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.217512624510878, 42.768522582229785]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Canada",
+        "key": "canada",
+        "ISO_A3": "CAN",
+        "ISO_A2": "CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-95.314103102020699, 65.0932448205225495]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Czech Republic",
+        "key": "czech_republic",
+        "ISO_A3": "CZE",
+        "ISO_A2": "CZ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.314103102020699, 49.732448205225495]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Germany",
+        "key": "germany",
+        "ISO_A3": "DEU",
+        "ISO_A2": "DE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.383058970344841, 51.106452328473225]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Denmark",
+        "key": "denmark",
+        "ISO_A3": "DNK",
+        "ISO_A2": "DK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.053145857266982, 55.965160610232587]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Spain",
+        "key": "spain",
+        "ISO_A3": "ESP",
+        "ISO_A2": "ES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.497381930456967, 40.380721981845376]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Estonia",
+        "key": "estonia",
+        "ISO_A3": "EST",
+        "ISO_A2": "EE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.535793169697534, 58.671014125759527]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Finland",
+        "key": "finland",
+        "ISO_A3": "FIN",
+        "ISO_A2": "FI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [26.270795075594865, 64.495358927511461]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "France",
+        "key": "france",
+        "ISO_A3": "FRA",
+        "ISO_A2": "FR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.546366605960799, 46.554862237186143]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "United Kingdom",
+        "key": "united_kingdom",
+        "ISO_A3": "GBR",
+        "ISO_A2": "GB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.886951483103692, 54.147048189197932]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Greece",
+        "key": "greece",
+        "ISO_A3": "GRC",
+        "ISO_A2": "GR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.974818996338218, 39.05118116672751]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Croatia",
+        "key": "croatia",
+        "ISO_A3": "HRV",
+        "ISO_A2": "HR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.39854873389401, 45.067726146614568]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Hungary",
+        "key": "hungary",
+        "ISO_A3": "HUN",
+        "ISO_A2": "HU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.396759267358217, 47.163243686593404]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Ireland",
+        "key": "ireland",
+        "ISO_A3": "IRL",
+        "ISO_A2": "IE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.145044617565777, 53.17822139136652]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Italy",
+        "key": "italy",
+        "ISO_A3": "ITA",
+        "ISO_A2": "IT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.071982569097736, 42.786668309270283]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Lithuania",
+        "key": "lithuania",
+        "ISO_A3": "LTU",
+        "ISO_A2": "LT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.888248863080037, 55.327023613155511]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Luxembourg",
+        "key": "luxembourg",
+        "ISO_A3": "LUX",
+        "ISO_A2": "LU"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.07176396727355, 49.766824275810869]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Latvia",
+        "key": "latvia",
+        "ISO_A3": "LVA",
+        "ISO_A2": "LV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.908622317789664, 56.851819457395258]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Malta",
+        "key": "malta",
+        "ISO_A3": "MLT",
+        "ISO_A2": "MT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.403754031434111, 35.921026987006641]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Netherlands",
+        "key": "netherlands",
+        "ISO_A3": "NLD",
+        "ISO_A2": "NL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.584258794729283, 52.268030924906057]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Norway",
+        "key": "norway",
+        "ISO_A3": "NOR",
+        "ISO_A2": "NO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [15.209331155534137, 68.124001682646211]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Poland",
+        "key": "poland",
+        "ISO_A3": "POL",
+        "ISO_A2": "PL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.396108055847307, 52.12504733153591]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Portugal",
+        "key": "portugal",
+        "ISO_A3": "PRT",
+        "ISO_A2": "PT"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-7.974785114901341, 39.680407010040142]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Romania",
+        "key": "romania",
+        "ISO_A3": "ROU",
+        "ISO_A2": "RO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.972941887678989, 45.853464093418147]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Slovakia",
+        "key": "slovakia",
+        "ISO_A3": "SVK",
+        "ISO_A2": "SK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.480382971203593, 48.70493530170998]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Slovenia",
+        "key": "slovenia",
+        "ISO_A3": "SVN",
+        "ISO_A2": "SI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.808089734627007, 46.11611107314382]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ADMIN": "Sweden",
+        "key": "sweden",
+        "ISO_A3": "SWE",
+        "ISO_A2": "SE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16.754251547915633, 62.776502672097408]
+      }
+    }
+  ]
+}

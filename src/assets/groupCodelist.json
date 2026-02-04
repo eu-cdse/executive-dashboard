@@ -1,0 +1,40 @@
+{
+  "data-accessed": {
+    "performance": {
+      "name": "Performance",
+      "order": 0
+    },
+    "download": {
+      "name": "Downloaded data",
+      "order": 1
+    },
+    "queries": {
+      "name": "Queries to the product catalogue",
+      "order": 2
+    },
+    "s3": {
+      "name": "Requests to the object storage (S3)",
+      "order": 3
+    }
+  },
+  "sentinel-hub": {
+    "performance": {
+      "name": "Performance",
+      "order": 0
+    },
+    "other": {
+      "name": "Other metrics",
+      "order": 1
+    }
+  },
+  "data-published": {
+    "performance": {
+      "name": "Performance",
+      "order": 0
+    },
+    "data-volume": {
+      "name": "Data Volume",
+      "order": 1
+    }
+  }
+}

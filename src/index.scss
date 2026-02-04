@@ -1,0 +1,338 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+
+#root::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.noScroll {
+  overflow: scroll;
+  height: 100%;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.scrollable-x {
+  overflow-x: auto;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+:root {
+  --bgcolor: #f8f8fa;
+  --cshtext: #545f71;
+  --csbg: #ffffff;
+  --csdark: #fbfbfb;
+  --csmain: #0e51af;
+  --csmain2: #0a4393;
+  --csmain21: #0a4393;
+  --csmain3: #4f78b1;
+  --cssec: #77cc09;
+  --cspurp: #6263c2;
+  --csdgreen: #2f4858;
+  --csred: #ff4f3c;
+  --csorange: #f47937;
+  --csgrejson: #d0d0d0;
+  --csyellow: #fabc20;
+  --cswhite: #effffa;
+  --csnav: var(--csmain2);
+  --cstext: #232323;
+  --cstxt: #fff;
+  --csgrey: #c7d2e6;
+  --csdgrey: #f5f5f5;
+  --csgray: #666666;
+  --csgrey2: #f8f8f8;
+  --csmaintext: var(--cssec);
+  --csinactive: #898989;
+  --csswitch: var(--cssec);
+  --csacc: rgb(255, 255, 255);
+  --csbs: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  --csfilter: none;
+  --csfilterr: invert(1);
+  --csvalovi: url('/valovi-light.svg');
+  --cshighlight: #c2c2c230;
+  --bluetxt: #3a4a61;
+  --bluetxtlight: #989fab;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --stat200: var(--csswitch);
+  --stat400: var(--csgrejson);
+  --stat500: var(--csred);
+
+  --chartcol1: var(--csmain2);
+  --chartcol2: var(--cssec);
+  --chartcol3: #8e7bef;
+  --chartcol4: #e1bbff;
+  --chartcol5: var(--csyellow);
+  --chartcol6: #ff8157;
+  --chartcol7: #7b93ef;
+  --chartcol8: #2ce06e;
+  --chartcol9: #ff8686;
+  --chartcol10: #006d5b;
+  --chartcol11: #bbcfff;
+  --chartcol12: #59b000;
+  --chartcol13: #d85213;
+  --chartcol14: #2ce0cb;
+  --chartcol15: #b9e02c;
+  --chartcol16: #536181;
+  --chartcol17: #e48820;
+  --chartcol18: #e02cd7;
+  --chartcol19: #1e887c;
+  --chartcol20: #9850ad;
+
+  * {
+    font-family: 'Arial', sans-serif;
+  }
+}
+
+[data-theme='dark'] {
+  background: #111111;
+  --bgcolor: #0d0d0d;
+  --csbg: #202020;
+  --csdark: rgb(26, 26, 26);
+  --csmain: #28a263;
+  --csmaintext: #28a263;
+  --csmain2: #016053;
+  --csmain21: #0bc9ad;
+  --csmain3: #037962;
+  --cshtext: #08a68f;
+  --cssec: #08a68f;
+  --cspurp: #6263c2;
+  --csdgreen: #2f4858;
+  --csred: #dc4534;
+  --csorange: #f47937;
+  --cswhite2: #eaeeff;
+  --csyellow: #fabc20;
+  --cswhite: #effffa;
+  --csnav: rgb(46, 46, 46);
+  --cstext: #048e73;
+  --cstxt: #e5e5e5;
+  --csgrey: #3d3c3c;
+  --csdgrey: #262626;
+  --csswitch: var(--csmain);
+  --csinactive: #0dd6b8;
+  --csacc: #222;
+  --csbs: rgba(0, 80, 87, 0.297) 0px 1px 4px;
+  --csfilter: invert(1);
+  --csfilterr: none;
+  --csvalovi: url('/valovi-dark.svg');
+  --csgrejson: #898989;
+  --csgray: #0dd6b8;
+  --cshighlight: #33333350;
+  --chartcol2: #00847a;
+  --chartcol3: #00757a;
+
+  --chartcol5: #4ea1ad;
+  --chartcol6: #62b4c0;
+  --chartcol7: #2362af;
+  --chartcol8: #0d377a;
+  --chartcol9: #ffaa96;
+}
+
+.sparktooltip {
+  color: var(--base-col);
+}
+
+.tooltip-graph {
+  background-color: #393e46 !important;
+  border-color: #393e46 !important;
+
+  .apexcharts-tooltip-title {
+    background-color: #333333 !important;
+    border-color: var(--base-col) !important;
+    border-bottom-width: 2px !important;
+  }
+}
+
+.label {
+  font-size: 2rem;
+  margin: 5px 8px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: var(--csmain);
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding: 8px 35px;
+}
+.icon-container {
+  border-radius: 15px;
+  padding: 12px;
+  margin: 0 12px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    svg {
+      path {
+        stroke: var(--csmain);
+        color: var(--csmain);
+      }
+    }
+  }
+  svg.active {
+    path {
+      stroke: var(--csmain);
+      color: var(--csmain);
+    }
+  }
+  svg {
+    path {
+      stroke: white;
+      color: white;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+
+.accordion {
+  div {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.nice-scroll {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: var(--csmain2) var(--csmain2);
+  &::-webkit-scrollbar-track {
+    background-color: var(--csnav);
+    -webkit-box-shadow: inset rgba(50, 50, 93, 0.25) 0px 2px 0px 0px,
+      rgba(0, 0, 0, 0.3) 0px 0px 0px 0px;
+  }
+  &::-webkit-scrollbar {
+    width: 6px;
+    background-color: var(--cssec);
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--cssec);
+  }
+}
+
+// Accordion box shadow
+.bss {
+  box-shadow: var(--csbs);
+  background-color: var(--csbg);
+}
+
+// LOGIN MODAL
+
+.modalInput {
+  input {
+    padding: 10px;
+    background-color: var(--csdark);
+    border-bottom: 2px solid var(--csmain2);
+    margin-bottom: 15px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: var(--csfilterr);
+}
+
+.news-header {
+  background-image: var(--csvalovi);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-position: 50% 22%;
+}
+
+.service-container {
+  @media screen and (max-width: 900px) {
+    min-width: 330px;
+  }
+}
+.stableserv {
+  min-width: 500px;
+
+  @media screen and (max-width: 1380px) {
+    width: 100%;
+  }
+  @media screen and (max-width: 580px) {
+    min-width: 300px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .isup-service-daily {
+      display: none;
+    }
+  }
+}
+
+// Different service header for services
+
+.service-header {
+  box-shadow: none;
+  * {
+    background: transparent;
+  }
+
+  .service-header {
+    justify-content: start;
+  }
+  .service-border {
+    width: 95%;
+    margin-bottom: 0;
+  }
+
+  th {
+    padding: 0;
+  }
+  .stable {
+    border-spacing: 7px;
+  }
+}
+
+.react-grid-placeholder {
+  background: var(--csmain2) !important;
+  transition: background 0.3s ease;
+  border-radius: 10px;
+}
+
+// Fixes react grid overlay bug
+.react-grid-item:hover {
+  z-index: 9990;
+}
+
+.glowybox {
+  box-shadow: var(--csmain2) 0px 0px 0px 3px;
+}

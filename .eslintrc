@@ -1,0 +1,36 @@
+{
+  "env": {
+    "browser": true,
+   "es2021": true
+  },
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "ecmaFeatures": {
+      "legacyDecorators": true
+    }
+  },
+  "plugins": ["react", "prettier", "@typescript-eslint"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "printWidth": 80,
+        "trailingComma": "es5",
+        "semi": true,
+        "endOfLine": "auto",
+        "singleQuote": true
+      }
+    ],
+    "react-hooks/exhaustive-deps": "off",
+    "no-useless-computed-key": "off",
+    "no-extend-native": "off",
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+  
+}

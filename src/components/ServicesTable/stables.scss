@@ -1,0 +1,106 @@
+.stable {
+  border-collapse: separate;
+  border-spacing: 7px;
+  th,
+  td {
+    text-align: center;
+  }
+  th {
+    padding-top: 10px;
+    color: var(--csmain2);
+    font-size: 14px;
+  }
+  td {
+    padding: 5px 0;
+  }
+  th:first-child,
+  td:first-child {
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 500;
+  }
+  th:first-child {
+    font-weight: 600;
+  }
+
+  .greydout {
+    //background-color: #f5f5f5;
+    //border-bottom: 2px solid var(--csgrey);
+    border-spacing: 10px;
+    border-radius: 10px;
+  }
+
+  .tablelbl {
+    text-align: left !important;
+    padding: 0px 10px !important;
+    color: var(--csmain2);
+    font-size: 14px;
+  }
+}
+
+.rnded {
+  border-radius: 0 10px 10px 0;
+  background-color: var(--csmain3);
+}
+
+.clockbutton {
+  &:hover {
+    cursor: pointer;
+  }
+  &-disabled {
+    background-color: rgb(235, 235, 235) !important;
+    pointer-events: none !important;
+    * {
+      color: white !important;
+    }
+    box-shadow: none !important;
+  }
+  &-active {
+    transition: 0.2s ease-in;
+    background-color: var(--csmain3) !important;
+    * {
+      color: white !important;
+    }
+  }
+
+  svg {
+    color: var(--csmain2);
+  }
+}
+
+.flex-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-cell {
+  flex: 1; /* Distributes space equally between cells */
+  padding: 7px;
+  color: var(--csmain2);
+  text-align: center;
+
+  #info-triangle-icon {
+    position: absolute;
+    padding-left: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.header .flex-cell {
+  color: var(--csmain2);
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.flex-first {
+  flex: 2;
+  text-align: left !important;
+  padding-left: 20px;
+  font-weight: 500;
+}

@@ -1,0 +1,24 @@
+.leaflet-tooltip {
+  background-color: rgb(249, 249, 249, 1);
+  color: white;
+  border: 2px solid #e4e4e4;
+  border-radius: 10px;
+  padding: 4px 12px;
+  font-size: 12px;
+  box-shadow: 0 0 1px #fff;
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
+  top: -20px;
+  padding-bottom: 8px;
+}
+
+.leaflet-tooltip::before {
+  border: none;
+}
+
+.leaflet-tooltip:hover {
+  opacity: 1;
+}
+.leaflet-interactive:focus {
+  outline: none;
+}

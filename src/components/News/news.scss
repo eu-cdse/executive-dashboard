@@ -1,0 +1,22 @@
+.news-label,
+[class^='newsitem-'][class$='-text'] {
+  transition: all 0.3s ease;
+}
+
+@for $i from 0 through 5 {
+  .newsitem-#{$i}:hover {
+    cursor: pointer;
+    .newsitem-#{$i}-text {
+      color: var(--cssec);
+      scale: 1.02;
+    }
+  }
+}
+
+.news-description {
+  display: -webkit-box;
+  max-width: 300px;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

@@ -1,0 +1,116 @@
+$top: 45% 6% 2% 38% 42%;
+$left: 20% 32% 53% 64% 42%;
+$width: 20vw 20vw 20vw 20vw 20vw;
+$height: 20vw 20vw 20vw 20vw 20vw;
+$widtho: 6vw 6vw 6vw 6vw 6vw;
+$heighto: 6vw 6vw 6vw 6vw 6vw;
+$patop: 0px 0px 0 0 0;
+$font: 1.4vw;
+$valfont: 2vw 2vw 2vw 2vw 20px;
+
+.img-overlay {
+  position: absolute;
+  border-radius: 50%;
+
+  &.box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.25) 4px 4px 4px 0;
+  }
+
+  * {
+    line-height: 1.2;
+    font-family: Arial, Helvetica, sans-serif !important;
+  }
+
+  // Loop through the array and assign the values to the respective elements
+
+  @for $i from 1 through length($top) {
+    $final-width: nth($width, $i);
+    $final-height: nth($height, $i);
+    $img-widtho: nth($widtho, $i);
+    $img-heighto: nth($heighto, $i);
+    $fonts: $font;
+    $valfonts: nth($valfont, $i);
+
+    &-#{$i - 1} {
+      top: nth($top, $i);
+      left: nth($left, $i);
+      width: $final-width;
+      height: $final-height;
+
+      .imgo {
+        position: relative;
+        width: 80px;
+        height: 80px;
+      }
+      .maintext {
+        padding-top: nth($patop, $i);
+        font-size: $fonts;
+      }
+      .valtext {
+        font-size: $valfonts;
+      }
+      .onlytext {
+        font-size: $valfonts;
+        .onlyquotes {
+          line-height: $valfonts;
+        }
+      }
+    }
+  }
+
+  @media screen and (min-width: 1921px) {
+    @media screen and (min-height: 700px) {
+      $widthmin: 16vw 16vw 16vw 16vw 16vw;
+      $heightmin: 16vw 16vw 16vw 16vw 16vw;
+      $widthomin: 100px 100px 100px 100px 100px;
+      $heightomin: 5.5vw 5.5vw 5.5vw 5.5vw 5.5vw;
+      $fontmin: 27px 27px 27px 27px 27px;
+      $valfontmin: 40px 40px 40px 40px 40px;
+      @for $i from 1 through length($top) {
+        &-#{$i - 1} {
+          width: nth($widthmin, $i);
+          height: nth($heightmin, $i);
+          .imgo {
+            width: 80px;
+            height: 80px;
+          }
+          .maintext {
+            font-size: nth($fontmin, $i);
+          }
+          .valtext {
+            font-size: nth($valfontmin, $i);
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1400px) {
+    .imgo {
+      width: 60px;
+      height: 60px;
+    }
+    .onlytext {
+      font-size: 16px;
+      .onlyquotes {
+        line-height: 16px;
+      }
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .imgo {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+.fixeddiv {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bgfixed {
+  backdrop-filter: blur(3px);
+}
