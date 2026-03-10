@@ -304,25 +304,55 @@ export const useDataStore = create<DataStore>((set, get) => ({
       data,
       datasource = localStorage.getItem('isTemp') === 'true' ? '_tmp' : '';
     try {
-      let res = await fetch(`${BASE_CLOUDFERRO}/current${datasource}.json`, {
-        cache: 'no-cache',
-      });
-      data = await res.json();
-
+      let currentResponse = await fetch(
+        `${BASE_CLOUDFERRO}/current${datasource}.json`,
+        {
+          cache: 'no-cache',
+        }
+      );
+      let currentAvailabilityResponse = await fetch(
+        `${BASE_CLOUDFERRO}/current_availability${datasource}.json`,
+        {
+          cache: 'no-cache',
+        }
+      );
+      let currentResponseData = await currentResponse.json();
+      let currentAvailabilityResponseData =
+        await currentAvailabilityResponse.json();
+      data = {
+        status: currentAvailabilityResponseData.status,
+        metrics: [
+          ...currentResponseData.metrics,
+          ...currentAvailabilityResponseData.metrics,
+        ],
+      };
       // console.log(
       //   data.metrics.find(
       //     (met) => met.metric === 'smmp12__cf__num_active_users_mission_dl_7d'
       //   )
       // );
 
-      res = await fetch(
+      let currentTimelinesResponse = await fetch(
         `${BASE_CLOUDFERRO}/current_timelines${datasource}.json`,
         {
           cache: 'no-cache',
         }
       );
-      timelines = await res.json();
-
+      let currentTimelinesDailyResponse = await fetch(
+        `${BASE_CLOUDFERRO}/current_timelines_daily${datasource}.json`,
+        {
+          cache: 'no-cache',
+        }
+      );
+      let currentTimelinesResponseData = await currentTimelinesResponse.json();
+      let currentTimelinesDailyResponseData =
+        await currentTimelinesDailyResponse.json();
+      timelines = {
+        metrics: [
+          ...currentTimelinesResponseData.metrics,
+          ...currentTimelinesDailyResponseData.metrics,
+        ],
+      };
       // console.log(
       //   timelines.metrics.find(
       //     (met) =>
