@@ -41,36 +41,6 @@
       "description": "Copernicus Atmosphere Monitoring Service"
     },
     {
-      "key": "cop_dem_glo_90_dged",
-      "name": "COP_DEM_GLO_90_DGED",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "DEM",
-      "resolution": "",
-      "processing level": "",
-      "description": "Global Coverage"
-    },
-    {
-      "key": "cop_dem_glo_30_dted",
-      "name": "COP_DEM_GLO_30_DTED",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "DEM",
-      "resolution": "",
-      "processing level": "",
-      "description": "Global Coverage"
-    },
-    {
-      "key": "cop_dem_glo_30_dged",
-      "name": "COP_DEM_GLO_30_DGED",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "DEM",
-      "resolution": "",
-      "processing level": "",
-      "description": "Global Coverage"
-    },
-    {
       "key": "ccm_cop_dem_eea_10_dged",
       "name": "COP_DEM_EEA_10_DGED",
       "mission": "CCM",
@@ -91,8 +61,58 @@
       "description": "EEA Coverage"
     },
     {
+      "key": "ccm_cop_dem_glo_30_dged",
+      "name": "",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "DEM",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "ccm_cop_dem_glo_90_dged",
       "name": "COP_DEM_GLO_90_DGED",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "DEM",
+      "resolution": "",
+      "processing level": "",
+      "description": "Global Coverage"
+    },
+    {
+      "key": "ccm_cop-dem_eea-10-dged",
+      "name": "COP-DEM_EEA-10-DGED",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "DEM",
+      "resolution": "",
+      "processing level": "",
+      "description": "EEA Coverage"
+    },
+    {
+      "key": "ccm_cop-dem_eea-10-insp",
+      "name": "COP-DEM_EEA-10-INSP",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "DEM",
+      "resolution": "",
+      "processing level": "",
+      "description": "EEA Coverage"
+    },
+    {
+      "key": "ccm_cop-dem_glo-30-dged",
+      "name": "COP-DEM_GLO-30-DGED",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "DEM",
+      "resolution": "",
+      "processing level": "",
+      "description": "Global Coverage"
+    },
+    {
+      "key": "ccm_cop-dem_glo-30-dted",
+      "name": "COP-DEM_GLO-30-DTED",
       "mission": "CCM",
       "beam mode": "",
       "product/data type": "DEM",
@@ -111,46 +131,6 @@
       "description": "Global Coverage"
     },
     {
-      "key": "ccm_cop-dem_glo-30-dged",
-      "name": "COP-DEM_GLO-30-DGED",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "DEM",
-      "resolution": "",
-      "processing level": "",
-      "description": "Global Coverage"
-    },
-    {
-      "key": "ccm_cop-dem_eea-10-insp",
-      "name": "COP-DEM_EEA-10-INSP",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "DEM",
-      "resolution": "",
-      "processing level": "",
-      "description": "EEA Coverage"
-    },
-    {
-      "key": "ccm_cop-dem_eea-10-dged",
-      "name": "COP-DEM_EEA-10-DGED",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "DEM",
-      "resolution": "",
-      "processing level": "",
-      "description": "EEA Coverage"
-    },
-    {
-      "key": "ccm_cop-dem_glo-30-dted",
-      "name": "COP-DEM_GLO-30-DTED",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "DEM",
-      "resolution": "",
-      "processing level": "",
-      "description": "Global Coverage"
-    },
-    {
       "key": "ccm_cop-dem_glo-90-dted",
       "name": "COP-DEM_GLO-90-DTED",
       "mission": "CCM",
@@ -159,6 +139,106 @@
       "resolution": "",
       "processing level": "",
       "description": "Global Coverage"
+    },
+    {
+      "key": "ccm_dap_mg2-3_01",
+      "name": "CCM_DAP_MG2-3_01",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "OPTICAL",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "ccm_dap_mg2b_01",
+      "name": "DAP_MG2b_01",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "OPTICAL",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "ccm_dap_mg2b_02",
+      "name": "CCM_DAP_MG2B_02",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "OPTICAL",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "ccm_dem_vhr_2018",
+      "name": "CCM_DEM_VHR_2018",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "OPTICAL",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "ccm_dwh_mg1_core_11",
+      "name": "DWH_MG1_CORE_11",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "SAR",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "ccm_dwh_mg2_3_core_08",
+      "name": "DWH_MG2_3_CORE_08",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "OPTICAL",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "ccm_dwh_mg2_core_01",
+      "name": "DWH_MG2_CORE_01",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "OPTICAL",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "ccm_dwh_mg2_core_02",
+      "name": "DWH_MG2_CORE_02",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "OPTICAL",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "ccm_dwh_mg2_core_09",
+      "name": "CCM_DWH_MG2_CORE_09",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "OPTICAL",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "ccm_dwh_mg2_core_10",
+      "name": "DWH_MG2_CORE_10",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "OPTICAL",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
     },
     {
       "key": "ccm_dwh_mg2-3_core_08",
@@ -176,6 +256,46 @@
       "mission": "CCM",
       "beam mode": "",
       "product/data type": "OPTICAL",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "ccm_eur_hr2_multitemp",
+      "name": "EUR_HR2_MULTITEMP",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "OPTICAL",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "ccm_hr_image_2015",
+      "name": "HR_IMAGE_2015",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "OPTICAL",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "ccm_mr_image_2015",
+      "name": "MR_IMAGE_2015",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "OPTICAL",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "ccm_sar_sea_ice",
+      "name": "SAR_SEA_ICE",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "SAR",
       "resolution": "",
       "processing level": "",
       "description": ""
@@ -221,8 +341,8 @@
       "description": ""
     },
     {
-      "key": "ccm_dap_mg2b_01",
-      "name": "DAP_MG2b_01",
+      "key": "ccm_vhr_image_2024",
+      "name": "CCM_VHR_IMAGE_2024",
       "mission": "CCM",
       "beam mode": "",
       "product/data type": "OPTICAL",
@@ -241,98 +361,8 @@
       "description": ""
     },
     {
-      "key": "ccm_dwh_mg2_core_01",
-      "name": "DWH_MG2_CORE_01",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "OPTICAL",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "ccm_dwh_mg2_core_02",
-      "name": "DWH_MG2_CORE_02",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "OPTICAL",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "ccm_hr_image_2015",
-      "name": "HR_IMAGE_2015",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "OPTICAL",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "ccm_eur_hr2_multitemp",
-      "name": "EUR_HR2_MULTITEMP",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "OPTICAL",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "ccm_mr_image_2015",
-      "name": "MR_IMAGE_2015",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "OPTICAL",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "ccm_dwh_mg2_3_core_08",
-      "name": "DWH_MG2_3_CORE_08",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "OPTICAL",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "ccm_sar_sea_ice",
-      "name": "SAR_SEA_ICE",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "SAR",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "ccm_dwh_mg1_core_11",
-      "name": "DWH_MG1_CORE_11",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "SAR",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "ccm_dwh_mg2_core_10",
-      "name": "DWH_MG2_CORE_10",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "OPTICAL",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "ccm_dem_vhr_2018",
-      "name": "",
+      "key": "ccm_vhr1-2_urban_atlas_2012",
+      "name": "CCM_VHR1-2_URBAN_ATLAS_2012",
       "mission": "CCM",
       "beam mode": "",
       "product/data type": "OPTICAL",
@@ -342,47 +372,7 @@
     },
     {
       "key": "ccm_vhr1-2_urban_atlas_2012 ",
-      "name": "",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "OPTICAL",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "ccm_dap_mg2-3_01",
-      "name": "CCM_DAP_MG2-3_01",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "OPTICAL",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "ccm_dap_mg2b_02",
-      "name": "CCM_DAP_MG2B_02",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "OPTICAL",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "ccm_dwh_mg2_core_09",
-      "name": "CCM_DWH_MG2_CORE_09",
-      "mission": "CCM",
-      "beam mode": "",
-      "product/data type": "OPTICAL",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "ccm_vhr1-2_urban_atlas_2012",
-      "name": "CCM_VHR1-2_URBAN_ATLAS_2012",
+      "name": "CCM_VHR1-2_URBAN_ATLAS_2012 ",
       "mission": "CCM",
       "beam mode": "",
       "product/data type": "OPTICAL",
@@ -401,6 +391,66 @@
       "description": "Copernicus Emergency Management Service"
     },
     {
+      "key": "clms_ba_global_300m_daily_v3",
+      "name": "CLMS_BA_GLOBAL_300M_DAILY_V3",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_ba_global_300m_daily_v4",
+      "name": "CLMS_BA_GLOBAL_300M_DAILY_V4",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_ba_global_300m_monthly_v3",
+      "name": "CLMS_BA_GLOBAL_300M_MONTHLY_V3",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_ba_global_300m_monthly_v4",
+      "name": "CLMS_BA_GLOBAL_300M_MONTHLY_V4",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_ba_v1",
+      "name": "CLMS_BA_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_ba_v1_300",
+      "name": "CLMS_BA_V1_300",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "clms_clms",
       "name": "CLMS",
       "mission": "CLMS",
@@ -409,6 +459,1256 @@
       "resolution": "",
       "processing level": "",
       "description": "Copernicus Land monitoring Service"
+    },
+    {
+      "key": "clms_clms_vlcc_bare-soil-after_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_BARE-SOIL-AFTER_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_bare-soil-after-confidence-layer_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_BARE-SOIL-AFTER-CONFIDENCE-LAYER_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_bare-soil-before_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_BARE-SOIL-BEFORE_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_bare-soil-before-confidence-layer_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_BARE-SOIL-BEFORE-CONFIDENCE-LAYER_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_broadleaved-cover-density_europe_100m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_BROADLEAVED-COVER-DENSITY_EUROPE_100M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_coniferous-cover-density_europe_100m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_CONIFEROUS-COVER-DENSITY_EUROPE_100M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_cropping-seasons_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_CROPPING-SEASONS_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_crop-types_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_CROP-TYPES_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_crop-types-confidence-layer_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_CROP-TYPES-CONFIDENCE-LAYER_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_dominant-leaf-type_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_DOMINANT-LEAF-TYPE_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_dominant-leaf-type-confidence-layer_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_DOMINANT-LEAF-TYPE-CONFIDENCE-LAYER_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_fallow-land-presence_dom_utm_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_FALLOW-LAND-PRESENCE_DOM_UTM_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_fallow-land-presence_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_FALLOW-LAND-PRESENCE_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_fallow-land-presence_europe_laea_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_FALLOW-LAND-PRESENCE_EUROPE_LAEA_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_fallow-land-presence-confidence-layer_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_FALLOW-LAND-PRESENCE-CONFIDENCE-LAYER_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_forest-additional-support-layer_europe_10m_3yearly_v1",
+      "name": "CLMS_CLMS_VLCC_FOREST-ADDITIONAL-SUPPORT-LAYER_EUROPE_10M_3YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_forest-type_europe_100m_3yearly_v1",
+      "name": "CLMS_CLMS_VLCC_FOREST-TYPE_EUROPE_100M_3YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_forest-type_europe_10m_3yearly_v1",
+      "name": "CLMS_CLMS_VLCC_FOREST-TYPE_EUROPE_10M_3YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_grassland_europe_100m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_GRASSLAND_EUROPE_100M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_grassland_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_GRASSLAND_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_grassland-mowing-dates_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_GRASSLAND-MOWING-DATES_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_grassland-mowing-dates_europe_10m_yearly_v2",
+      "name": "CLMS_CLMS_VLCC_GRASSLAND-MOWING-DATES_EUROPE_10M_YEARLY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_grassland-mowing-events_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_GRASSLAND-MOWING-EVENTS_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_grassland-mowing-events_europe_10m_yearly_v2",
+      "name": "CLMS_CLMS_VLCC_GRASSLAND-MOWING-EVENTS_EUROPE_10M_YEARLY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_grassland-mowing-events-confidence-layer_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_GRASSLAND-MOWING-EVENTS-CONFIDENCE-LAYER_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_grassland-mowing-events-confidence-layer_europe_10m_yearly_v2",
+      "name": "CLMS_CLMS_VLCC_GRASSLAND-MOWING-EVENTS-CONFIDENCE-LAYER_EUROPE_10M_YEARLY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_herbaceous-cover_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_HERBACEOUS-COVER_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_main-crop-duration_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_MAIN-CROP-DURATION_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_main-crop-duration-confidence-layer_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_MAIN-CROP-DURATION-CONFIDENCE-LAYER_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_main-crop-emergence_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_MAIN-CROP-EMERGENCE_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_main-crop-emergence-confidence-layer_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_MAIN-CROP-EMERGENCE-CONFIDENCE-LAYER_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_main-crop-harvest_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_MAIN-CROP-HARVEST_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_main-crop-harvest-confidence-layer_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_MAIN-CROP-HARVEST-CONFIDENCE-LAYER_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_ploughing-indicator_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_PLOUGHING-INDICATOR_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_secondary-crop-duration_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_SECONDARY-CROP-DURATION_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_secondary-crop-duration-confidence-layer_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_SECONDARY-CROP-DURATION-CONFIDENCE-LAYER_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_secondary-crop-emergence_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_SECONDARY-CROP-EMERGENCE_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_secondary-crop-types_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_SECONDARY-CROP-TYPES_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_tree-cover-density_europe_100m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_TREE-COVER-DENSITY_EUROPE_100M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_tree-cover-density_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_TREE-COVER-DENSITY_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_clms_vlcc_tree-cover-density-confidence-layer_europe_10m_yearly_v1",
+      "name": "CLMS_CLMS_VLCC_TREE-COVER-DENSITY-CONFIDENCE-LAYER_EUROPE_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_directional_v1",
+      "name": "CLMS_DIRECTIONAL_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_dmp_global_1km_10daily_v2",
+      "name": "CLMS_DMP_GLOBAL_1KM_10DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_dmp_global_300m_10daily_v1",
+      "name": "CLMS_DMP_GLOBAL_300M_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_dmp_v1",
+      "name": "CLMS_DMP_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_eta_global_300m_10daily_v1",
+      "name": "CLMS_ETA_GLOBAL_300M_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_fapar_global_1km_10daily_v2",
+      "name": "CLMS_FAPAR_GLOBAL_1KM_10DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_fapar_global_300m_10daily_v1",
+      "name": "CLMS_FAPAR_GLOBAL_300M_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_fcover_1km_global_v1",
+      "name": "CLMS_FCOVER_1KM_GLOBAL_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_fcover_global_1km_10daily_v2",
+      "name": "CLMS_FCOVER_GLOBAL_1KM_10DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_fcover_global_300m_10daily_v1",
+      "name": "CLMS_FCOVER_GLOBAL_300M_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_gdmp_global_1km_10daily_v2",
+      "name": "CLMS_GDMP_GLOBAL_1KM_10DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_gdmp_global_300m_10daily_v1",
+      "name": "CLMS_GDMP_GLOBAL_300M_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_gpp_global_300m_10daily_v1",
+      "name": "CLMS_GPP_GLOBAL_300M_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_hf_global_300m_daily_v1",
+      "name": "CLMS_HF_GLOBAL_300M_DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lai_1km_global_v1",
+      "name": "CLMS_LAI_1KM_GLOBAL_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lai_global_1km_10daily_v2",
+      "name": "CLMS_LAI_GLOBAL_1KM_10DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lai_global_300m_10daily_v1",
+      "name": "CLMS_LAI_GLOBAL_300M_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lc_global_100m_yearly_v3",
+      "name": "CLMS_LC_GLOBAL_100M_YEARLY_V3",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lcm_global_10m_yearly_v1",
+      "name": "CLMS_LCM_GLOBAL_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lcm_global_300m_yearly_v1",
+      "name": "CLMS_LCM_GLOBAL_300M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lie_baltic_250m_daily_v1",
+      "name": "CLMS_LIE_BALTIC_250M_DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lie_europe_250m_daily_v2",
+      "name": "CLMS_LIE_EUROPE_250M_DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lie_global_500m_daily_v2",
+      "name": "CLMS_LIE_GLOBAL_500M_DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lie_northernhemisphere_500m_daily_v1",
+      "name": "CLMS_LIE_NORTHERNHEMISPHERE_500M_DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lsp_global_300m_yearly_v1",
+      "name": "CLMS_LSP_GLOBAL_300M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lsp_global_300m_yearly_v2",
+      "name": "CLMS_LSP_GLOBAL_300M_YEARLY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lst_global_5km_hourly_v1",
+      "name": "CLMS_LST_GLOBAL_5KM_HOURLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lst_global_5km_hourly_v2",
+      "name": "CLMS_LST_GLOBAL_5KM_HOURLY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lst-daily-cycle_global_5km_10daily_v1",
+      "name": "CLMS_LST-DAILY-CYCLE_GLOBAL_5KM_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lst-daily-cycle_global_5km_10daily_v2",
+      "name": "CLMS_LST-DAILY-CYCLE_GLOBAL_5KM_10DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lst-tci_global_5km_10daily_v1",
+      "name": "CLMS_LST-TCI_GLOBAL_5KM_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lst-tci_global_5km_10daily_v2",
+      "name": "CLMS_LST-TCI_GLOBAL_5KM_10DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lswt-nrt_global_1km_10daily_v1",
+      "name": "CLMS_LSWT-NRT_GLOBAL_1KM_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lswt-offline_global_1km_10daily_v1",
+      "name": "CLMS_LSWT-OFFLINE_GLOBAL_1KM_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lwq-nrt_global_100m_10daily_v1",
+      "name": "CLMS_LWQ-NRT_GLOBAL_100M_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lwq-nrt_global_100m_10daily_v2",
+      "name": "CLMS_LWQ-NRT_GLOBAL_100M_10DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lwq-nrt_global_1km_10daily_v1",
+      "name": "CLMS_LWQ-NRT_GLOBAL_1KM_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lwq-nrt_global_300m_10daily_v1",
+      "name": "CLMS_LWQ-NRT_GLOBAL_300M_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lwq-nrt_global_300m_10daily_v1s_lie_global_500m_daily_v2",
+      "name": "CLMS_LWQ-NRT_GLOBAL_300M_10DAILY_V1S_LIE_GLOBAL_500M_DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lwq-nrt_global_300m_10daily_v2",
+      "name": "CLMS_LWQ-NRT_GLOBAL_300M_10DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lwq-reproc_global_1km_10daily_v1",
+      "name": "CLMS_LWQ-REPROC_GLOBAL_1KM_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_lwq-reproc_global_300m_10daily_v1",
+      "name": "CLMS_LWQ-REPROC_GLOBAL_300M_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_ndvi_1km_v2",
+      "name": "CLMS_NDVI_1KM_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_ndvi_global_1km_10daily_v2",
+      "name": "CLMS_NDVI_GLOBAL_1KM_10DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_ndvi_global_1km_10daily_v3",
+      "name": "CLMS_NDVI_GLOBAL_1KM_10DAILY_V3",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_ndvi_global_300m_10daily_v1",
+      "name": "CLMS_NDVI_GLOBAL_300M_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_ndvi_global_300m_10daily_v2",
+      "name": "CLMS_NDVI_GLOBAL_300M_10DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_ndvi_global_300m_10daily_v3",
+      "name": "CLMS_NDVI_GLOBAL_300M_10DAILY_V3",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_ndvi-lts_global_1km_10daily_v2",
+      "name": "CLMS_NDVI-LTS_GLOBAL_1KM_10DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_ndvi-lts_global_1km_10daily_v3",
+      "name": "CLMS_NDVI-LTS_GLOBAL_1KM_10DAILY_V3",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_ndvi-sts_global_1km_10daily_v3",
+      "name": "CLMS_NDVI-STS_GLOBAL_1KM_10DAILY_V3",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_npp_global_300m_10daily_v1",
+      "name": "CLMS_NPP_GLOBAL_300M_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_sce_europe_500m_daily_v1",
+      "name": "CLMS_SCE_EUROPE_500M_DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_sce_global_1km_daily_v1",
+      "name": "CLMS_SCE_GLOBAL_1KM_DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_sce_northernhemisphere_1km_daily_v1",
+      "name": "CLMS_SCE_NORTHERNHEMISPHERE_1KM_DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_ssm_europe_1km_daily_v1",
+      "name": "CLMS_SSM_EUROPE_1KM_DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_swe_northernhemisphere_5km_daily_v1",
+      "name": "CLMS_SWE_NORTHERNHEMISPHERE_5KM_DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_swe_northernhemisphere_5km_daily_v2",
+      "name": "CLMS_SWE_NORTHERNHEMISPHERE_5KM_DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_swi_europe_1km_daily_v1",
+      "name": "CLMS_SWI_EUROPE_1KM_DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_swi_europe_1km_daily_v2",
+      "name": "CLMS_SWI_EUROPE_1KM_DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_swi_global_12.5km_10daily_v3",
+      "name": "CLMS_SWI_GLOBAL_12.5KM_10DAILY_V3",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_swi_global_12.5km_10daily_v4",
+      "name": "CLMS_SWI_GLOBAL_12.5KM_10DAILY_V4",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_swi_global_12.5km_daily_v3",
+      "name": "CLMS_SWI_GLOBAL_12.5KM_DAILY_V3",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_swi_global_12.5km_daily_v4",
+      "name": "CLMS_SWI_GLOBAL_12.5KM_DAILY_V4",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_swi10_v3",
+      "name": "CLMS_SWI10_V3",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_swi-static_global_12.5km_daily_v3",
+      "name": "CLMS_SWI-STATIC_GLOBAL_12.5KM_DAILY_V3",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_swi-timeseries_global_12.5km_daily_v3",
+      "name": "CLMS_SWI-TIMESERIES_GLOBAL_12.5KM_DAILY_V3",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_tcd_pantropical_10m_yearly_v1",
+      "name": "CLMS_TCD_PANTROPICAL_10M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_tcd_pantropical_300m_yearly_v1",
+      "name": "CLMS_TCD_PANTROPICAL_300M_YEARLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_toc_global_300m_daily_v2",
+      "name": "CLMS_TOC_GLOBAL_300M_DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_wb_global_100m_monthly_v1",
+      "name": "CLMS_WB_GLOBAL_100M_MONTHLY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_wb_global_1km_10daily_v2",
+      "name": "CLMS_WB_GLOBAL_1KM_10DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_wb_global_300m_10daily_v1",
+      "name": "CLMS_WB_GLOBAL_300M_10DAILY_V1",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_wb_global_300m_monthly_v2",
+      "name": "CLMS_WB_GLOBAL_300M_MONTHLY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_wbs_global_300m_monthly_v2",
+      "name": "CLMS_WBS_GLOBAL_300M_MONTHLY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_wl-lakes_global_vector_daily_v2",
+      "name": "CLMS_WL-LAKES_GLOBAL_VECTOR_DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clms_wl-rivers_global_vector_daily_v2",
+      "name": "CLMS_WL-RIVERS_GLOBAL_VECTOR_DAILY_V2",
+      "mission": "CLMS",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clmsarchive_arlie",
+      "name": "CLMSARCHIVE_ARLIE",
+      "mission": "CLMS_ARCHIVE",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clmsarchive_fsc",
+      "name": "CLMSARCHIVE_FSC",
+      "mission": "CLMS_ARCHIVE",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clmsarchive_gfsc",
+      "name": "CLMSARCHIVE_GFSC",
+      "mission": "CLMS_ARCHIVE",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clmsarchive_psa",
+      "name": "CLMSARCHIVE_PSA",
+      "mission": "CLMS_ARCHIVE",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clmsarchive_rlie",
+      "name": "CLMSARCHIVE_RLIE",
+      "mission": "CLMS_ARCHIVE",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clmsarchive_sws",
+      "name": "CLMSARCHIVE_SWS",
+      "mission": "CLMS_ARCHIVE",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "clmsarchive_wds",
+      "name": "CLMSARCHIVE_WDS",
+      "mission": "CLMS_ARCHIVE",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
     },
     {
       "key": "cmems_analysis",
@@ -471,6 +1771,36 @@
       "description": "Copernicus Marine Environment Monitoring Service"
     },
     {
+      "key": "cop_dem_glo_30_dged",
+      "name": "COP_DEM_GLO_30_DGED",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "DEM",
+      "resolution": "",
+      "processing level": "",
+      "description": "Global Coverage"
+    },
+    {
+      "key": "cop_dem_glo_30_dted",
+      "name": "COP_DEM_GLO_30_DTED",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "DEM",
+      "resolution": "",
+      "processing level": "",
+      "description": "Global Coverage"
+    },
+    {
+      "key": "cop_dem_glo_90_dged",
+      "name": "COP_DEM_GLO_90_DGED",
+      "mission": "CCM",
+      "beam mode": "",
+      "product/data type": "DEM",
+      "resolution": "",
+      "processing level": "",
+      "description": "Global Coverage"
+    },
+    {
       "key": "envisat_asa_app_1p",
       "name": "ENVISAT_ASA_APP_1P",
       "mission": "ENVISAT",
@@ -521,9 +1851,129 @@
       "description": ""
     },
     {
+      "key": "envisat_mer_frs",
+      "name": "ENVISAT_MER_FRS",
+      "mission": "ENVISAT",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "envisat_mer_frs_1p",
       "name": "",
       "mission": "ENVISAT",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "gm_s1sar_l3_dh_mcm",
+      "name": " ",
+      "mission": "Global-Mosaics ",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "gm_s1sar_l3_dh_mcm_lr",
+      "name": "",
+      "mission": "Global-Mosaics ",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "gm_s1sar_l3_iw_mcm",
+      "name": " ",
+      "mission": "Global-Mosaics ",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "gm_s1sar_l3_iw_mcm_lr",
+      "name": "",
+      "mission": "Global-Mosaics ",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "gm_s2msi_l3__mcq",
+      "name": "",
+      "mission": "Global-Mosaics ",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "gm_s2msi_l3__mcq_lr",
+      "name": "",
+      "mission": "Global-Mosaics ",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "gm_s2msi_l3__wcy",
+      "name": "",
+      "mission": "Global-Mosaics ",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "gm_sentinel-1_dh",
+      "name": "GM_SENTINEL-1_DH",
+      "mission": "Global-Mosaics ",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "gm_sentinel-1_ew",
+      "name": "GM_SENTINEL-1_EW",
+      "mission": "Global-Mosaics ",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "gm_sentinel-1_iw",
+      "name": "GM_SENTINEL-1_IW",
+      "mission": "Global-Mosaics ",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "gm_sentinel-2",
+      "name": "GM_SENTINEL-2",
+      "mission": "Global-Mosaics ",
       "beam mode": "",
       "product/data type": "-",
       "resolution": "",
@@ -671,6 +2121,16 @@
       "description": ""
     },
     {
+      "key": "l7_l1g",
+      "name": "L7_L1G",
+      "mission": "L7",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": 1,
+      "description": ""
+    },
+    {
       "key": "l7_l1gt",
       "name": "L7_L1GT",
       "mission": "L7",
@@ -691,9 +2151,9 @@
       "description": ""
     },
     {
-      "key": "l7_l1g",
-      "name": "L7_L1G",
-      "mission": "L7",
+      "key": "l8_l1gt",
+      "name": "L8_L1GT",
+      "mission": "L8",
       "beam mode": "",
       "product/data type": "-",
       "resolution": "",
@@ -703,16 +2163,6 @@
     {
       "key": "l8_l1t",
       "name": "L8_L1T",
-      "mission": "L8",
-      "beam mode": "",
-      "product/data type": "-",
-      "resolution": "",
-      "processing level": 1,
-      "description": ""
-    },
-    {
-      "key": "l8_l1gt",
-      "name": "L8_L1GT",
       "mission": "L8",
       "beam mode": "",
       "product/data type": "-",
@@ -741,16 +2191,6 @@
       "description": ""
     },
     {
-      "key": "l9_l1tp",
-      "name": "",
-      "mission": "L9",
-      "beam mode": "",
-      "product/data type": "-",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
       "key": "l9_l1gt",
       "name": "",
       "mission": "L9",
@@ -761,8 +2201,88 @@
       "description": ""
     },
     {
-      "key": "s1_aux_ice",
-      "name": "S1_AUX_ICE",
+      "key": "l9_l1tp",
+      "name": "",
+      "mission": "L9",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "l9_l2sp",
+      "name": "L9_L2SP",
+      "mission": "L9",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1____obs__ss",
+      "name": "S1____OBS__SS",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_ai_raw__0",
+      "name": "S1_AI_RAW__0",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_ai_raw__0_",
+      "name": "S1_AI_RAW__0_",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_ai_raw_0",
+      "name": "S1_AI_RAW_0",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_aisaux",
+      "name": "S1_AISAUX",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_amh_errmat",
+      "name": "S1_AMH_ERRMAT",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_amv_errmat",
+      "name": "S1_AMV_ERRMAT",
       "mission": "S1",
       "beam mode": "",
       "product/data type": "Engineering",
@@ -781,8 +2301,108 @@
       "description": ""
     },
     {
+      "key": "s1_aux_gnssrd",
+      "name": "S1_AUX_GNSSRD",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_aux_ice",
+      "name": "S1_AUX_ICE",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_aux_ins",
+      "name": "S1_AUX_INS",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_aux_itc",
+      "name": "S1_AUX_ITC",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_aux_ml2",
+      "name": "",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_aux_moeorb",
+      "name": "S1_AUX_MOEORB",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_aux_poeorb",
       "name": "S1_AUX_POEORB",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_aux_pp1",
+      "name": "",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_aux_pp2",
+      "name": "",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_aux_preorb",
+      "name": "S1_AUX_PREORB",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_aux_proqua",
+      "name": "S1_AUX_PROQUA",
       "mission": "S1",
       "beam mode": "",
       "product/data type": "AUX",
@@ -801,6 +2421,46 @@
       "description": ""
     },
     {
+      "key": "s1_aux_scs",
+      "name": "S1_AUX_SCS",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_aux_tec",
+      "name": "S1_AUX_TEC",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_aux_tro",
+      "name": "S1_AUX_TRO",
+      "mission": "S1",
+      "beam mode": "AUX",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_aux_wav",
+      "name": "S1_AUX_WAV",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_aux_wnd",
       "name": "S1_AUX_WND",
       "mission": "S1",
@@ -811,51 +2471,11 @@
       "description": ""
     },
     {
-      "key": "s1____obs__ss",
-      "name": "S1____OBS__SS",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_card-coh12",
-      "name": "S1_CARD-COH12",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "OTHER",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_card-coh6",
-      "name": "S1_CARD-COH6",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "OTHER",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_cardbs",
-      "name": "S1_CARDBS",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "OTHER",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
       "key": "s1_card_coh12",
       "name": "S1_CARD_COH12",
       "mission": "S1",
       "beam mode": "",
-      "product/data type": "OTHER",
+      "product/data type": "CARD",
       "resolution": "",
       "processing level": "",
       "description": ""
@@ -865,7 +2485,57 @@
       "name": "S1_CARD_COH6",
       "mission": "S1",
       "beam mode": "",
-      "product/data type": "OTHER",
+      "product/data type": "CARD",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_cardbs",
+      "name": "S1_CARDBS",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "CARD",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_card-coh12",
+      "name": "S1_CARD-COH12",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "CARD",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_card-coh6",
+      "name": "S1_CARD-COH6",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "CARD",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_en_raw__0s",
+      "name": "S1_EN_RAW__0S",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_eta__ax",
+      "name": "S1_ETA__AX",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "ETA",
       "resolution": "",
       "processing level": "",
       "description": ""
@@ -879,6 +2549,26 @@
       "resolution": "",
       "processing level": "",
       "description": ""
+    },
+    {
+      "key": "s1_ew_grdh_1s",
+      "name": "S1_EW_GRDH_1S",
+      "mission": "S1",
+      "beam mode": "EW",
+      "product/data type": "GRD",
+      "resolution": "high",
+      "processing level": 1,
+      "description": ""
+    },
+    {
+      "key": "s1_ew_grdh_1s-cog",
+      "name": "S1_EW_GRDH_1S-COG",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "GRD",
+      "resolution": "",
+      "processing level": "",
+      "description": "x"
     },
     {
       "key": "s1_ew_grdm_1a",
@@ -911,14 +2601,14 @@
       "description": ""
     },
     {
-      "key": "s1_ew_grdh_1s-cog",
-      "name": "S1_EW_GRDH_1S-COG",
+      "key": "s1_ew_grdm_1s-cog_private",
+      "name": "S1_EW_GRDM_1S-COG_PRIVATE",
       "mission": "S1",
       "beam mode": "",
       "product/data type": "GRD",
       "resolution": "",
       "processing level": "",
-      "description": "x"
+      "description": ""
     },
     {
       "key": "s1_ew_ocn__2a",
@@ -1001,6 +2691,36 @@
       "description": ""
     },
     {
+      "key": "s1_gp_raw__0_",
+      "name": "S1_GP_RAW__0_",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_gp_raw__0__",
+      "name": "",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_gp_raw__0____c",
+      "name": "S1_GP_RAW__0____C",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_grd",
       "name": "S1_GRD",
       "mission": "S1",
@@ -1009,6 +2729,16 @@
       "resolution": "",
       "processing level": "",
       "description": "x"
+    },
+    {
+      "key": "s1_grd_cog",
+      "name": "S1_GRD_COG",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "GRD",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
     },
     {
       "key": "s1_grd-cog",
@@ -1021,8 +2751,38 @@
       "description": "x"
     },
     {
+      "key": "s1_grdh_1a",
+      "name": "S1_GRDH_1A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_hk_raw__0_",
+      "name": "S1_HK_RAW__0_",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "RAW",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_iw_eta__ax",
       "name": "S1_IW_ETA__AX",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "ETA",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_iw_eta_ax",
+      "name": "S1_IW_ETA_AX",
       "mission": "S1",
       "beam mode": "",
       "product/data type": "ETA",
@@ -1059,6 +2819,16 @@
       "resolution": "high",
       "processing level": 1,
       "description": "x"
+    },
+    {
+      "key": "s1_iw_grdh_1s-cog_private",
+      "name": "S1_IW_GRDH_1S-COG_PRIVATE",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "GRD",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
     },
     {
       "key": "s1_iw_ocn__2a",
@@ -1141,11 +2911,111 @@
       "description": ""
     },
     {
+      "key": "s1_n1_raw__0s",
+      "name": "S1_N1_RAW__0S",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_n2_raw__0s",
+      "name": "S1_N2_RAW__0S",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_n3_raw__0s",
+      "name": "S1_N3_RAW__0S",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_n4_raw__0s",
+      "name": "S1_N4_RAW__0S",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_n5_raw__0s",
+      "name": "S1_N5_RAW__0S",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_n6_raw__0s",
+      "name": "S1_N6_RAW__0S",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_ocn",
       "name": "S1_OCN",
       "mission": "S1",
       "beam mode": "",
       "product/data type": "OCN",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_raw",
+      "name": "S1_RAW",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "RAW",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_raw__0_",
+      "name": "S1_RAW__0_",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "RAW",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_raw__0a",
+      "name": "S1_RAW__0A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_raw__0c",
+      "name": "S1_RAW__0C",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
       "resolution": "",
       "processing level": "",
       "description": ""
@@ -1159,16 +3029,6 @@
       "resolution": "",
       "processing level": "",
       "description": "RAW historical S1 products served from LTA"
-    },
-    {
-      "key": "s1_raw",
-      "name": "S1_RAW",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "RAW",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
     },
     {
       "key": "s1_rf_raw__0s",
@@ -1186,6 +3046,16 @@
       "mission": "S1",
       "beam mode": "",
       "product/data type": "ETA",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s1_grdh_1a",
+      "name": "S1_S1_GRDH_1A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
       "resolution": "",
       "processing level": "",
       "description": ""
@@ -1211,6 +3081,26 @@
       "description": "x"
     },
     {
+      "key": "s1_s1_grdh_1s-cog_private",
+      "name": "S1_S1_GRDH_1S-COG_PRIVATE",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "GRD",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s1_ocn__2a",
+      "name": "S1_S1_OCN__2A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_s1_ocn__2s",
       "name": "S1_S1_OCN__2S",
       "mission": "S1",
@@ -1221,8 +3111,28 @@
       "description": ""
     },
     {
-      "key": "s1_raw__0c",
-      "name": "S1_RAW__0C",
+      "key": "s1_s1_raw__0a",
+      "name": "S1_S1_RAW__0A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s1_raw__0c",
+      "name": "S1_S1_RAW__0C",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s1_raw__0n",
+      "name": "S1_S1_RAW__0N",
       "mission": "S1",
       "beam mode": "",
       "product/data type": "Engineering",
@@ -1241,6 +3151,16 @@
       "description": ""
     },
     {
+      "key": "s1_s1_slc__1a",
+      "name": "S1_S1_SLC__1A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_s1_slc__1s",
       "name": "S1_S1_SLC__1S",
       "mission": "S1",
@@ -1248,6 +3168,36 @@
       "product/data type": "SLC",
       "resolution": "",
       "processing level": 1,
+      "description": ""
+    },
+    {
+      "key": "s1_s1a_201812",
+      "name": "S1_S1A_201812",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "OTHER",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s2_eta__ax",
+      "name": "S1_S2_ETA__AX",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "ETA",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s2_grdh_1a",
+      "name": "S1_S2_GRDH_1A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
       "description": ""
     },
     {
@@ -1271,6 +3221,26 @@
       "description": "x"
     },
     {
+      "key": "s1_s2_grdh_1s-cog_private",
+      "name": "S1_S2_GRDH_1S-COG_PRIVATE",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "GRD",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s2_ocn__2a",
+      "name": "S1_S2_OCN__2A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_s2_ocn__2s",
       "name": "S1_S2_OCN__2S",
       "mission": "S1",
@@ -1281,11 +3251,61 @@
       "description": ""
     },
     {
+      "key": "s1_s2_raw__0a",
+      "name": "S1_S2_RAW__0A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s2_raw__0c",
+      "name": "S1_S2_RAW__0C",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s2_raw__0n",
+      "name": "S1_S2_RAW__0N",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_s2_raw__0s",
       "name": "S1_S2_RAW__0S",
       "mission": "S1",
       "beam mode": "stripmap",
       "product/data type": "RAW",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s2_raw__on",
+      "name": "S1_S2_RAW__0N",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s2_slc__1a",
+      "name": "S1_S2_SLC__1A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
       "resolution": "",
       "processing level": "",
       "description": ""
@@ -1311,6 +3331,26 @@
       "description": ""
     },
     {
+      "key": "s1_s3_grdf_1s",
+      "name": "S1_S3_GRDF_1S",
+      "mission": "S1",
+      "beam mode": "stripmap",
+      "product/data type": "GRD",
+      "resolution": "full",
+      "processing level": 1,
+      "description": ""
+    },
+    {
+      "key": "s1_s3_grdh_1a",
+      "name": "S1_S3_GRDH_1A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_s3_grdh_1s",
       "name": "S1_S3_GRDH_1S",
       "mission": "S1",
@@ -1331,6 +3371,26 @@
       "description": "x"
     },
     {
+      "key": "s1_s3_grdh_1s-cog_private",
+      "name": "S1_S3_GRDH_1S-COG_PRIVATE",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "GRD",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s3_ocn__2a",
+      "name": "S1_S3_OCN__2A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_s3_ocn__2s",
       "name": "S1_S3_OCN__2S",
       "mission": "S1",
@@ -1338,6 +3398,16 @@
       "product/data type": "OCN",
       "resolution": "",
       "processing level": 2,
+      "description": ""
+    },
+    {
+      "key": "s1_s3_raw__0a",
+      "name": "S1_S3_RAW__0A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
       "description": ""
     },
     {
@@ -1351,11 +3421,31 @@
       "description": ""
     },
     {
+      "key": "s1_s3_raw__0n",
+      "name": "S1_S3_RAW__0N",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_s3_raw__0s",
       "name": "S1_S3_RAW__0S",
       "mission": "S1",
       "beam mode": "stripmap",
       "product/data type": "RAW",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s3_slc__1a",
+      "name": "S1_S3_SLC__1A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
       "resolution": "",
       "processing level": "",
       "description": ""
@@ -1381,6 +3471,16 @@
       "description": ""
     },
     {
+      "key": "s1_s4_grdh_1a",
+      "name": "S1_S4_GRDH_1A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_s4_grdh_1s",
       "name": "S1_S4_GRDH_1S",
       "mission": "S1",
@@ -1401,6 +3501,26 @@
       "description": "x"
     },
     {
+      "key": "s1_s4_grdh_1s-cog_private",
+      "name": "S1_S4_GRDH_1S-COG_PRIVATE",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "GRD",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s4_ocn__2a",
+      "name": "S1_S4_OCN__2A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_s4_ocn__2s",
       "name": "S1_S4_OCN__2S",
       "mission": "S1",
@@ -1408,6 +3528,36 @@
       "product/data type": "OCN",
       "resolution": "",
       "processing level": 2,
+      "description": ""
+    },
+    {
+      "key": "s1_s4_raw__0a",
+      "name": "S1_S4_RAW__0A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s4_raw__0c",
+      "name": "S1_S4_RAW__0C",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s4_raw__0n",
+      "name": "S1_S4_RAW__0N",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
       "description": ""
     },
     {
@@ -1421,6 +3571,16 @@
       "description": ""
     },
     {
+      "key": "s1_s4_slc__1a",
+      "name": "S1_S4_SLC__1A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_s4_slc__1s",
       "name": "S1_S4_SLC__1S",
       "mission": "S1",
@@ -1428,6 +3588,26 @@
       "product/data type": "SLC",
       "resolution": "",
       "processing level": 1,
+      "description": ""
+    },
+    {
+      "key": "s1_s5_eta__ax",
+      "name": "S1_S5_ETA__AX",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "ETA",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s5_grdh_1a",
+      "name": "S1_S5_GRDH_1A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
       "description": ""
     },
     {
@@ -1451,6 +3631,26 @@
       "description": "x"
     },
     {
+      "key": "s1_s5_grdh_1s-cog_private",
+      "name": "S1_S5_GRDH_1S-COG_PRIVATE",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "GRD",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s5_ocn__2a",
+      "name": "S1_S5_OCN__2A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_s5_ocn__2s",
       "name": "S1_S5_OCN__2S",
       "mission": "S1",
@@ -1461,6 +3661,36 @@
       "description": ""
     },
     {
+      "key": "s1_s5_raw__0a",
+      "name": "S1_S5_RAW__0A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s5_raw__0c",
+      "name": "S1_S5_RAW__0C",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s5_raw__0n",
+      "name": "S1_S5_RAW__0N",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_s5_raw__0s",
       "name": "S1_S5_RAW__0S",
       "mission": "S1",
@@ -1468,6 +3698,26 @@
       "product/data type": "RAW",
       "resolution": "",
       "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s5_slc__1a",
+      "name": "S1_S5_SLC__1A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s5_slc__1s",
+      "name": "S1_S5_SLC__1S",
+      "mission": "S1",
+      "beam mode": "stripmap",
+      "product/data type": "SLC",
+      "resolution": "",
+      "processing level": 1,
       "description": ""
     },
     {
@@ -1511,6 +3761,26 @@
       "description": "x"
     },
     {
+      "key": "s1_s6_grdh_1s-cog_private",
+      "name": "S1_S6_GRDH_1S-COG_PRIVATE",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "GRD",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s6_ocn__2a",
+      "name": "S1_S6_OCN__2A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_s6_ocn__2s",
       "name": "S1_S6_OCN__2S",
       "mission": "S1",
@@ -1521,8 +3791,38 @@
       "description": ""
     },
     {
+      "key": "s1_s6_raw__0a",
+      "name": "S1_S6_RAW__0A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_s6_raw__0c",
       "name": "S1_S6_RAW__0C",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s6_raw__0n",
+      "name": "S1_S6_RAW__0N",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s6_raw__0n_private",
+      "name": "S1_S6_RAW__0N_PRIVATE",
       "mission": "S1",
       "beam mode": "",
       "product/data type": "Engineering",
@@ -1541,6 +3841,26 @@
       "description": ""
     },
     {
+      "key": "s1_s6_raw_0a",
+      "name": "S1_S6_RAW_0A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_s6_slc__1a",
+      "name": "S1_S6_SLC__1A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_s6_slc__1s",
       "name": "S1_S6_SLC__1S",
       "mission": "S1",
@@ -1551,11 +3871,31 @@
       "description": ""
     },
     {
+      "key": "s1_sar_iw_grdh_1s",
+      "name": "S1_SAR_IW_GRDH_1S",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "GRD",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_slc",
       "name": "S1_SLC",
       "mission": "S1",
       "beam mode": "",
       "product/data type": "SLC",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s1_slc__1a",
+      "name": "S1_SLC__1A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
       "resolution": "",
       "processing level": "",
       "description": ""
@@ -1621,6 +3961,16 @@
       "description": ""
     },
     {
+      "key": "s1_wv_raw__oa",
+      "name": "S1_WV_RAW__0A",
+      "mission": "S1",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s1_wv_slc__1a",
       "name": "S1_WV_SLC__1A",
       "mission": "S1",
@@ -1641,78 +3991,8 @@
       "description": ""
     },
     {
-      "key": "s1_aux_gnssrd",
-      "name": "S1_AUX_GNSSRD",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "AUX",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_aux_proqua",
-      "name": "S1_AUX_PROQUA",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "AUX",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_aux_preorb",
-      "name": "S1_AUX_PREORB",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "AUX",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_ew_grdh_1s",
-      "name": "S1_EW_GRDH_1S",
-      "mission": "S1",
-      "beam mode": "EW",
-      "product/data type": "GRD",
-      "resolution": "high",
-      "processing level": 1,
-      "description": ""
-    },
-    {
-      "key": "s1_s1a_201812",
-      "name": "S1_S1A_201812",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "OTHER",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s3_grdf_1s",
-      "name": "S1_S3_GRDF_1S",
-      "mission": "S1",
-      "beam mode": "stripmap",
-      "product/data type": "GRD",
-      "resolution": "full",
-      "processing level": 1,
-      "description": ""
-    },
-    {
-      "key": "s1_s5_slc__1s",
-      "name": "S1_S5_SLC__1S",
-      "mission": "S1",
-      "beam mode": "stripmap",
-      "product/data type": "SLC",
-      "resolution": "",
-      "processing level": 1,
-      "description": ""
-    },
-    {
-      "key": "s1_s1_grdh_1a",
-      "name": "S1_S1_GRDH_1A",
+      "key": "s1_z1_raw__0s",
+      "name": "S1_Z1_RAW__0S",
       "mission": "S1",
       "beam mode": "",
       "product/data type": "Engineering",
@@ -1721,8 +4001,8 @@
       "description": ""
     },
     {
-      "key": "s1_s1_ocn__2a",
-      "name": "S1_S1_OCN__2A",
+      "key": "s1_z2_raw__0s",
+      "name": "S1_Z2_RAW__0S",
       "mission": "S1",
       "beam mode": "",
       "product/data type": "Engineering",
@@ -1731,8 +4011,8 @@
       "description": ""
     },
     {
-      "key": "s1_s1_raw__0a",
-      "name": "S1_S1_RAW__0A",
+      "key": "s1_z3_raw__0s",
+      "name": "S1_Z3_RAW__0S",
       "mission": "S1",
       "beam mode": "",
       "product/data type": "Engineering",
@@ -1741,8 +4021,8 @@
       "description": ""
     },
     {
-      "key": "s1_s1_raw__0c",
-      "name": "S1_S1_RAW__0C",
+      "key": "s1_z4_raw__0s",
+      "name": "S1_Z4_RAW__0S",
       "mission": "S1",
       "beam mode": "",
       "product/data type": "Engineering",
@@ -1751,8 +4031,8 @@
       "description": ""
     },
     {
-      "key": "s1_s1_raw__0n",
-      "name": "S1_S1_RAW__0N",
+      "key": "s1_z5_raw__0s",
+      "name": "S1_Z5_RAW__0S",
       "mission": "S1",
       "beam mode": "",
       "product/data type": "Engineering",
@@ -1761,328 +4041,8 @@
       "description": ""
     },
     {
-      "key": "s1_s1_slc__1a",
-      "name": "S1_S1_SLC__1A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s2_eta__ax",
-      "name": "S1_S2_ETA__AX",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "ETA",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s2_grdh_1a",
-      "name": "S1_S2_GRDH_1A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s2_ocn__2a",
-      "name": "S1_S2_OCN__2A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s2_raw__0a",
-      "name": "S1_S2_RAW__0A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s2_raw__0c",
-      "name": "S1_S2_RAW__0C",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s2_raw__0n",
-      "name": "S1_S2_RAW__0N",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s2_slc__1a",
-      "name": "S1_S2_SLC__1A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s3_grdh_1a",
-      "name": "S1_S3_GRDH_1A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s3_ocn__2a",
-      "name": "S1_S3_OCN__2A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s3_raw__0a",
-      "name": "S1_S3_RAW__0A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s3_raw__0n",
-      "name": "S1_S3_RAW__0N",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s3_slc__1a",
-      "name": "S1_S3_SLC__1A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s4_grdh_1a",
-      "name": "S1_S4_GRDH_1A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s4_ocn__2a",
-      "name": "S1_S4_OCN__2A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s4_raw__0a",
-      "name": "S1_S4_RAW__0A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s4_raw__0c",
-      "name": "S1_S4_RAW__0C",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s4_raw__0n",
-      "name": "S1_S4_RAW__0N",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s4_slc__1a",
-      "name": "S1_S4_SLC__1A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s5_eta__ax",
-      "name": "S1_S5_ETA__AX",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "ETA",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s5_grdh_1a",
-      "name": "S1_S5_GRDH_1A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s5_ocn__2a",
-      "name": "S1_S5_OCN__2A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s5_raw__0a",
-      "name": "S1_S5_RAW__0A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s5_raw__0c",
-      "name": "S1_S5_RAW__0C",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s5_raw__0n",
-      "name": "S1_S5_RAW__0N",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s5_slc__1a",
-      "name": "S1_S5_SLC__1A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s6_ocn__2a",
-      "name": "S1_S6_OCN__2A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s6_raw__0a",
-      "name": "S1_S6_RAW__0A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s6_raw__0n",
-      "name": "S1_S6_RAW__0N",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s6_slc__1a",
-      "name": "S1_S6_SLC__1A",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_aux_tro",
-      "name": "S1_AUX_TRO",
-      "mission": "S1",
-      "beam mode": "AUX",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_aux_tec",
-      "name": "S1_AUX_TEC",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_aux_wav",
-      "name": "S1_AUX_WAV",
+      "key": "s1_z6_raw__0s",
+      "name": "S1_Z6_RAW__0S",
       "mission": "S1",
       "beam mode": "",
       "product/data type": "Engineering",
@@ -2111,81 +4071,11 @@
       "description": ""
     },
     {
-      "key": "s1_ew_grdm_1s-cog_private",
-      "name": "S1_EW_GRDM_1S-COG_PRIVATE",
+      "key": "s1_zw_raw__0s",
+      "name": "S1_ZW_RAW__0S",
       "mission": "S1",
       "beam mode": "",
-      "product/data type": "GRD",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_iw_grdh_1s-cog_private",
-      "name": "S1_IW_GRDH_1S-COG_PRIVATE",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "GRD",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s1_grdh_1s-cog_private",
-      "name": "S1_S1_GRDH_1S-COG_PRIVATE",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "GRD",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s2_grdh_1s-cog_private",
-      "name": "S1_S2_GRDH_1S-COG_PRIVATE",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "GRD",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s3_grdh_1s-cog_private",
-      "name": "S1_S3_GRDH_1S-COG_PRIVATE",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "GRD",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s5_grdh_1s-cog_private",
-      "name": "S1_S5_GRDH_1S-COG_PRIVATE",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "GRD",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s6_grdh_1s-cog_private",
-      "name": "S1_S6_GRDH_1S-COG_PRIVATE",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "GRD",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_s4_grdh_1s-cog_private",
-      "name": "S1_S4_GRDH_1S-COG_PRIVATE",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "GRD",
+      "product/data type": "Engineering",
       "resolution": "",
       "processing level": "",
       "description": ""
@@ -2201,58 +4091,18 @@
       "description": ""
     },
     {
-      "key": "s2_msi_l0__ds",
-      "name": "S2_MSI_L0__DS",
+      "key": "s2_aux_camsfo",
+      "name": "S2_AUX_CAMSFO",
       "mission": "S2",
-      "beam mode": "",
+      "beam mode": "AUX",
       "product/data type": "Engineering",
       "resolution": "",
       "processing level": "",
       "description": ""
     },
     {
-      "key": "s2_msi_l0__gr",
-      "name": "S2_MSI_L0__GR",
-      "mission": "S2",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s2_msi_l1a_ds",
-      "name": "S2_MSI_L1A_DS",
-      "mission": "S2",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s2_msi_l1a_gr",
-      "name": "S2_MSI_L1A_GR",
-      "mission": "S2",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s2_msi_l1b_ds",
-      "name": "S2_MSI_L1B_DS",
-      "mission": "S2",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s2_msi_l1b_gr",
-      "name": "S2_MSI_L1B_GR",
+      "key": "s2_aux_ecmwfd",
+      "name": "S2_AUX_ECMWFD",
       "mission": "S2",
       "beam mode": "",
       "product/data type": "Engineering",
@@ -2291,16 +4141,6 @@
       "description": ""
     },
     {
-      "key": "s2_aux_camsfo",
-      "name": "S2_AUX_CAMSFO",
-      "mission": "S2",
-      "beam mode": "AUX",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
       "key": "s2_aux_ut1utc",
       "name": "S2_AUX_UT1UTC",
       "mission": "S2",
@@ -2311,151 +4151,11 @@
       "description": ""
     },
     {
-      "key": "s2_msil1c",
-      "name": "S2_MSIL1C",
+      "key": "s2_gip_atmsad",
+      "name": "S2_GIP_ATMSAD",
       "mission": "S2",
       "beam mode": "",
-      "product/data type": "L1C",
-      "resolution": "",
-      "processing level": "1c",
-      "description": ""
-    },
-    {
-      "key": "s2_msil1c_n0500",
-      "name": "S2_MSIL1C_N0500",
-      "mission": "S2",
-      "beam mode": "",
-      "product/data type": "L1C",
-      "resolution": "",
-      "processing level": "1c",
-      "description": "Baseline N0500"
-    },
-    {
-      "key": "s2_msil2a",
-      "name": "S2_MSIL2A",
-      "mission": "S2",
-      "beam mode": "",
-      "product/data type": "L2A",
-      "resolution": "",
-      "processing level": "2a",
-      "description": ""
-    },
-    {
-      "key": "s2_msil2a_n0500",
-      "name": "S2_MSIL2A_N0500",
-      "mission": "S2",
-      "beam mode": "",
-      "product/data type": "L2A",
-      "resolution": "",
-      "processing level": "2a",
-      "description": "Baseline N0500"
-    },
-    {
-      "key": "s2_msi_l1c_ds",
-      "name": "S2_MSI_L1C_DS",
-      "mission": "S2",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "1c",
-      "description": ""
-    },
-    {
-      "key": "s2_msi_l1c_tc",
-      "name": "S2_MSI_L1C_TC",
-      "mission": "S2",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "1c",
-      "description": ""
-    },
-    {
-      "key": "s2_msi_l1c_tl",
-      "name": "S2_MSI_L1C_TL",
-      "mission": "S2",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "1c",
-      "description": ""
-    },
-    {
-      "key": "s2_msi_l2a_ds",
-      "name": "S2_MSI_L2A_DS",
-      "mission": "S2",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "2a",
-      "description": ""
-    },
-    {
-      "key": "s2_msi_l2a_tl",
-      "name": "S2_MSI_L2A_TL",
-      "mission": "S2",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "2a",
-      "description": ""
-    },
-    {
-      "key": "s2_gip_r2abca",
-      "name": "S2_GIP_R2ABCA",
-      "mission": "S2",
-      "beam mode": "AUX",
       "product/data type": "AUX",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s2_gip_r2eqog",
-      "name": "S2_GIP_R2EQOG",
-      "mission": "S2",
-      "beam mode": "AUX",
-      "product/data type": "AUX",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s2_gip_spamod",
-      "name": "S2_GIP_SPAMOD",
-      "mission": "S2",
-      "beam mode": "AUX",
-      "product/data type": "AUX",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s2_msi_l2a_tc",
-      "name": "S2_MSI_L2A_TC",
-      "mission": "S2",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "2a",
-      "description": ""
-    },
-    {
-      "key": "s2_prd_msil1c",
-      "name": "S2_PRD_MSIL1C",
-      "mission": "S2",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "1c",
-      "description": ""
-    },
-    {
-      "key": "s2_aux_ecmwfd",
-      "name": "S2_AUX_ECMWFD",
-      "mission": "S2",
-      "beam mode": "",
-      "product/data type": "Engineering",
       "resolution": "",
       "processing level": "",
       "description": ""
@@ -2496,6 +4196,36 @@
       "mission": "S2",
       "beam mode": "",
       "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_gip_r2abca",
+      "name": "S2_GIP_R2ABCA",
+      "mission": "S2",
+      "beam mode": "AUX",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_gip_r2depi",
+      "name": "S2_GIP_R2DEPI",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_gip_r2eqog",
+      "name": "S2_GIP_R2EQOG",
+      "mission": "S2",
+      "beam mode": "AUX",
+      "product/data type": "AUX",
       "resolution": "",
       "processing level": "",
       "description": ""
@@ -2641,6 +4371,266 @@
       "description": ""
     },
     {
+      "key": "s2_gip_r2nomo",
+      "name": "S2_GIP_R2NOMO",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_gip_spamod",
+      "name": "S2_GIP_SPAMOD",
+      "mission": "S2",
+      "beam mode": "AUX",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_l1c",
+      "name": "S2_L1C",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "L1C",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_l2a_n0500",
+      "name": "S2_L2A_N0500",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "L2A",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_l2a_n0510",
+      "name": "S2_L2A_N0510",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "L2A",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_l3_wasp",
+      "name": "S2_L3_WASP",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_msi_l0__ds",
+      "name": "S2_MSI_L0__DS",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_msi_l0__gr",
+      "name": "S2_MSI_L0__GR",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_msi_l1a_ds",
+      "name": "S2_MSI_L1A_DS",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_msi_l1a_gr",
+      "name": "S2_MSI_L1A_GR",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_msi_l1b_ds",
+      "name": "S2_MSI_L1B_DS",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_msi_l1b_gr",
+      "name": "S2_MSI_L1B_GR",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_msi_l1c",
+      "name": "S2_MSI_L1C",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "L1C",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_msi_l1c_ds",
+      "name": "S2_MSI_L1C_DS",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "1c",
+      "description": ""
+    },
+    {
+      "key": "s2_msi_l1c_tc",
+      "name": "S2_MSI_L1C_TC",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "1c",
+      "description": ""
+    },
+    {
+      "key": "s2_msi_l1c_tl",
+      "name": "S2_MSI_L1C_TL",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "1c",
+      "description": ""
+    },
+    {
+      "key": "s2_msi_l2a",
+      "name": "S2_MSI_L2A",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "L2A",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_msi_l2a_ds",
+      "name": "S2_MSI_L2A_DS",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "2a",
+      "description": ""
+    },
+    {
+      "key": "s2_msi_l2a_tc",
+      "name": "S2_MSI_L2A_TC",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "2a",
+      "description": ""
+    },
+    {
+      "key": "s2_msi_l2a_tl",
+      "name": "S2_MSI_L2A_TL",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "2a",
+      "description": ""
+    },
+    {
+      "key": "s2_msil1c",
+      "name": "S2_MSIL1C",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "L1C",
+      "resolution": "",
+      "processing level": "1c",
+      "description": ""
+    },
+    {
+      "key": "s2_msil1c_n0500",
+      "name": "S2_MSIL1C_N0500",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "L1C",
+      "resolution": "",
+      "processing level": "1c",
+      "description": "Baseline N0500"
+    },
+    {
+      "key": "s2_msil2a",
+      "name": "S2_MSIL2A",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "L2A",
+      "resolution": "",
+      "processing level": "2a",
+      "description": ""
+    },
+    {
+      "key": "s2_msil2a_n0500",
+      "name": "S2_MSIL2A_N0500",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "L2A",
+      "resolution": "",
+      "processing level": "2a",
+      "description": "Baseline N0500"
+    },
+    {
+      "key": "s2_msil2a-force",
+      "name": "S2_MSIL2A-FORCE",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "L2A",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s2_prd_msil1c",
+      "name": "S2_PRD_MSIL1C",
+      "mission": "S2",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "1c",
+      "description": ""
+    },
+    {
       "key": "s2_s2msi1c",
       "name": "S2_S2MSI1C",
       "mission": "S2",
@@ -2661,101 +4651,11 @@
       "description": ""
     },
     {
-      "key": "s3_tm_0_nat___",
-      "name": "S3_TM_0_NAT___",
+      "key": "s3_aux_comb__",
+      "name": "S3_AUX_COMB__",
       "mission": "S3",
       "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sy_2_vgk___",
-      "name": "S3_SY_2_VGK___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_do_0_dop___",
-      "name": "S3_DO_0_DOP___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_do_0_nav___",
-      "name": "S3_DO_0_NAV___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_gn_0_gns___",
-      "name": "S3_GN_0_GNS___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_mw_0_mwr___",
-      "name": "S3_MW_0_MWR___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sr_0_cal___",
-      "name": "S3_SR_0_CAL___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_mw_1_cal___",
-      "name": "S3_MW_1_CAL___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_mw_1_mwr___",
-      "name": "S3_MW_1_MWR___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sr_1_cal___",
-      "name": "S3_SR_1_CAL___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
+      "product/data type": "AUX",
       "resolution": "",
       "processing level": "",
       "description": ""
@@ -2821,6 +4721,96 @@
       "description": ""
     },
     {
+      "key": "s3_ax___ma2_ax",
+      "name": "S3_AX___MA2_AX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_ax___mf1_ax",
+      "name": "S3_AX___MF1_AX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_ax___mf2_ax",
+      "name": "S3_AX___MF2_AX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_ax___mfa_ax",
+      "name": "S3_AX___MFA_AX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_do_0_dop___",
+      "name": "S3_DO_0_DOP___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_do_0_nav___",
+      "name": "S3_DO_0_NAV___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_gn_0_gns___",
+      "name": "S3_GN_0_GNS___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_mw_0_mwr___",
+      "name": "S3_MW_0_MWR___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_mw_1_cal___",
+      "name": "S3_MW_1_CAL___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s3_mw_1_dnb_ax",
       "name": "S3_MW_1_DNB_AX",
       "mission": "S3",
@@ -2831,7 +4821,17 @@
       "description": ""
     },
     {
-      "key": "s3_sr_1_ca2cax",
+      "key": "s3_mw_1_mwr___",
+      "name": "S3_MW_1_MWR___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_mw_1_nir_ax",
       "name": "",
       "mission": "S3",
       "beam mode": "",
@@ -2841,32 +4841,22 @@
       "description": ""
     },
     {
-      "key": "s3_sr___mdo_ax",
-      "name": "S3_SR___MDO_AX",
+      "key": "s3_ol_0_cr0___",
+      "name": "S3_OL_0_CR0___",
       "mission": "S3",
       "beam mode": "",
-      "product/data type": "AUX",
+      "product/data type": "Engineering",
       "resolution": "",
       "processing level": "",
       "description": ""
     },
     {
-      "key": "s3_sr___poe_ax",
-      "name": "S3_SR___POE_AX",
+      "key": "s3_ol_0_efr___",
+      "name": "S3_OL_0_EFR___",
       "mission": "S3",
       "beam mode": "",
-      "product/data type": "AUX",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sr___roe_ax",
-      "name": "S3_SR___ROE_AX",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "AUX",
-      "resolution": "",
+      "product/data type": "Engineering",
+      "resolution": "IW_GRDH_1S-COG",
       "processing level": "",
       "description": ""
     },
@@ -2889,6 +4879,26 @@
       "resolution": "",
       "processing level": 1,
       "description": "Level 1 OL_1_ERR___ Reduced Resolution top of atmosphere radiance"
+    },
+    {
+      "key": "s3_ol_1_rac___",
+      "name": "S3_OL_1_RAC___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_ol_1_spc___",
+      "name": "S3_OL_1_SPC___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
     },
     {
       "key": "s3_ol_2_lfr___",
@@ -2931,6 +4941,16 @@
       "description": ""
     },
     {
+      "key": "s3_sl_0_slt___",
+      "name": "S3_SL_0_SLT___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "SLSTR",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s3_sl_1_rbt___",
       "name": "S3_SL_1_RBT___",
       "mission": "S3",
@@ -2941,8 +4961,28 @@
       "description": "Level 1 SL_1_RBT___ Brightness temperatures and radiances"
     },
     {
+      "key": "s3_sl_1_vsc_ax",
+      "name": "S3_SL_1_VSC_AX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s3_sl_2_aod___",
       "name": "S3_SL_2_AOD___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "SLSTR",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sl_2_frp",
+      "name": "S3_SL_2_FRP",
       "mission": "S3",
       "beam mode": "",
       "product/data type": "SLSTR",
@@ -2981,6 +5021,156 @@
       "description": ""
     },
     {
+      "key": "s3_sr___mdo_ax",
+      "name": "S3_SR___MDO_AX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr___mgnpax",
+      "name": "S3_SR___MGNPAX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr___mgnsax",
+      "name": "S3_SR___MGNSAX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr___poe_ax",
+      "name": "S3_SR___POE_AX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr___poepax",
+      "name": "S3_SR___POEPAX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr___poesax",
+      "name": "S3_SR___POESAX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr___roe_ax",
+      "name": "S3_SR___ROE_AX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr_0_cal___",
+      "name": "S3_SR_0_CAL___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr_0_sra___",
+      "name": "S3_SR_0_SRA___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr_1_ca1lax",
+      "name": "",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr_1_ca1sax",
+      "name": "S3_SR_1_CA1SAX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr_1_ca2cax",
+      "name": "",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr_1_ca2kax",
+      "name": "",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr_1_cal___",
+      "name": "S3_SR_1_CAL___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr_1_lan_rd",
+      "name": "S3_SR_1_LAN_RD",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "SRAL",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s3_sr_1_sra___",
       "name": "S3_SR_1_SRA___",
       "mission": "S3",
@@ -3009,6 +5199,36 @@
       "resolution": "",
       "processing level": "",
       "description": "Level 1 SR_1_SRA_BS Echos parameters for LRM, PLRM Level 1"
+    },
+    {
+      "key": "s3_sr_1_uso_ax",
+      "name": "S3_SR_1_USO_AX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr_2_ictnax",
+      "name": "S3_SR_2_ICTNAX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr_2_ictsax",
+      "name": "S3_SR_2_ICTSAX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
     },
     {
       "key": "s3_sr_2_lan___",
@@ -3051,98 +5271,18 @@
       "description": "SR_2_LAN_SI STM LAND Thematic userlevel data for sea ice (new since 2022)"
     },
     {
-      "key": "s3_sr_2_wat___",
-      "name": "S3_SR_2_WAT___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "SRAL",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sy_1_misr__",
-      "name": "S3_SY_1_MISR__",
+      "key": "s3_sr_2_pcppax",
+      "name": "S3_SR_2_PCPPAX",
       "mission": "S3",
       "beam mode": "",
       "product/data type": "Engineering",
       "resolution": "",
       "processing level": "",
-      "description": "Correspondence and collocation grids between OLCI/SLSTR acquisition and image grid and SYN Level 2 internal grid (i.e. OLCI instrument grid)"
-    },
-    {
-      "key": "s3_sy_2_aod___",
-      "name": "S3_SY_2_AOD___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "SYNERGY",
-      "resolution": "",
-      "processing level": "",
-      "description": "Global Aerosol parameter over land and sea on super pixel resolution (4.5 km x 4.5 km)"
-    },
-    {
-      "key": "s3_sy_2_syn___",
-      "name": "S3_SY_2_SYN___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "SYNERGY",
-      "resolution": "",
-      "processing level": "",
-      "description": "Surface Reflectance and Aerosol parameters over Land"
-    },
-    {
-      "key": "s3_sy_2_v10___",
-      "name": "S3_SY_2_V10___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "SYNERGY",
-      "resolution": "",
-      "processing level": "",
-      "description": "1 km VEGETATIONLike user-level data (~VGT-S10) 10 day synthesis surface reflectance and NDVI"
-    },
-    {
-      "key": "s3_sy_2_vg1___",
-      "name": "S3_SY_2_VG1___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "SYNERGY",
-      "resolution": "",
-      "processing level": "",
-      "description": "1 km VEGETATIONLike user-level data (~VGT-S1) 1 day synthesis surface reflectance and NDVI"
-    },
-    {
-      "key": "s3_sy_2_vgp___",
-      "name": "S3_SY_2_VGP___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "SYNERGY",
-      "resolution": "",
-      "processing level": "",
-      "description": "1 km VEGETATIONLike user-level data (~VGT-P) - TOA Reflectance"
-    },
-    {
-      "key": "s3_ol_0_efr___",
-      "name": "S3_OL_0_EFR___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "IW_GRDH_1S-COG",
-      "processing level": "",
       "description": ""
     },
     {
-      "key": "s3_sl_0_slt___",
-      "name": "S3_SL_0_SLT___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "SLSTR",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sr_0_sra___",
-      "name": "S3_SR_0_SRA___",
+      "key": "s3_sr_2_pgi_ax",
+      "name": "S3_SR_2_PGI_AX",
       "mission": "S3",
       "beam mode": "",
       "product/data type": "Engineering",
@@ -3153,6 +5293,46 @@
     {
       "key": "s3_sr_2_pmo_ax",
       "name": "S3_SR_2_PMO_AX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr_2_pmppax",
+      "name": "S3_SR_2_PMPPAX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr_2_pmpsax",
+      "name": "S3_SR_2_PMPSAX",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr_2_pol_ax",
+      "name": "",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr_2_rgi_ax",
+      "name": "S3_SR_2_RGI_AX",
       "mission": "S3",
       "beam mode": "",
       "product/data type": "Engineering",
@@ -3191,186 +5371,6 @@
       "description": ""
     },
     {
-      "key": "s3_ax___ma2_ax",
-      "name": "S3_AX___MA2_AX",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_ax___mf1_ax",
-      "name": "S3_AX___MF1_AX",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_ax___mf2_ax",
-      "name": "S3_AX___MF2_AX",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_ax___mfa_ax",
-      "name": "S3_AX___MFA_AX",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sl_1_vsc_ax",
-      "name": "S3_SL_1_VSC_AX",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sr_2_pcppax",
-      "name": "S3_SR_2_PCPPAX",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sr_2_pgi_ax",
-      "name": "S3_SR_2_PGI_AX",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sr_2_pmppax",
-      "name": "S3_SR_2_PMPPAX",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sr_2_pmpsax",
-      "name": "S3_SR_2_PMPSAX",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sr_2_rgi_ax",
-      "name": "S3_SR_2_RGI_AX",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sr___mgnpax",
-      "name": "S3_SR___MGNPAX",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sr___mgnsax",
-      "name": "S3_SR___MGNSAX",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sr___poepax",
-      "name": "S3_SR___POEPAX",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sr___poesax",
-      "name": "S3_SR___POESAX",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_aux_comb__",
-      "name": "S3_AUX_COMB__",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "AUX",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_ol_0_cr0___",
-      "name": "S3_OL_0_CR0___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_ol_1_rac___",
-      "name": "S3_OL_1_RAC___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_ol_1_spc___",
-      "name": "S3_OL_1_SPC___",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
       "key": "s3_sr_2_sifnax",
       "name": "S3_SR_2_SIFNAX",
       "mission": "S3",
@@ -3391,6 +5391,176 @@
       "description": ""
     },
     {
+      "key": "s3_sr_2_tdp_hy",
+      "name": "S3_SR_2_TDP_HY",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr_2_tdp_li",
+      "name": "S3_SR_2_TDP_LI",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sr_2_wat___",
+      "name": "S3_SR_2_WAT___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "SRAL",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sy_1_misr__",
+      "name": "S3_SY_1_MISR__",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": "Correspondence and collocation grids between OLCI/SLSTR acquisition and image grid and SYN Level 2 internal grid (i.e. OLCI instrument grid)"
+    },
+    {
+      "key": "s3_sy_2_aod",
+      "name": "S3_SY_2_AOD",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "SYNERGY",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sy_2_aod___",
+      "name": "S3_SY_2_AOD___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "SYNERGY",
+      "resolution": "",
+      "processing level": "",
+      "description": "Global Aerosol parameter over land and sea on super pixel resolution (4.5 km x 4.5 km)"
+    },
+    {
+      "key": "s3_sy_2_syn",
+      "name": "S3_SY_2_SYN",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "SYNERGY",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sy_2_syn___",
+      "name": "S3_SY_2_SYN___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "SYNERGY",
+      "resolution": "",
+      "processing level": "",
+      "description": "Surface Reflectance and Aerosol parameters over Land"
+    },
+    {
+      "key": "s3_sy_2_v10",
+      "name": "S3_SY_2_V10",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "SYNERGY",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sy_2_v10___",
+      "name": "S3_SY_2_V10___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "SYNERGY",
+      "resolution": "",
+      "processing level": "",
+      "description": "1 km VEGETATIONLike user-level data (~VGT-S10) 10 day synthesis surface reflectance and NDVI"
+    },
+    {
+      "key": "s3_sy_2_vg1",
+      "name": "S3_SY_2_VG1",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "SYNERGY",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sy_2_vg1___",
+      "name": "S3_SY_2_VG1___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "SYNERGY",
+      "resolution": "",
+      "processing level": "",
+      "description": "1 km VEGETATIONLike user-level data (~VGT-S1) 1 day synthesis surface reflectance and NDVI"
+    },
+    {
+      "key": "s3_sy_2_vgk___",
+      "name": "S3_SY_2_VGK___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sy_2_vgp",
+      "name": "S3_SY_2_VGP",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "SYNERGY",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s3_sy_2_vgp___",
+      "name": "S3_SY_2_VGP___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "SYNERGY",
+      "resolution": "",
+      "processing level": "",
+      "description": "1 km VEGETATIONLike user-level data (~VGT-P) - TOA Reflectance"
+    },
+    {
+      "key": "s3_tm_0_nat___",
+      "name": "S3_TM_0_NAT___",
+      "mission": "S3",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s5p_aux_ctm_co",
+      "name": "S5P_AUX_CTM_CO",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s5p_aux_ctmana",
       "name": "S5P_AUX_CTMANA",
       "mission": "S5P",
@@ -3401,293 +5571,13 @@
       "description": ""
     },
     {
-      "key": "s5p_l2__fresco",
-      "name": "S5P_L2__FRESCO",
+      "key": "s5p_aux_ctmch4",
+      "name": "S5P_AUX_CTMCH4",
       "mission": "S5P",
       "beam mode": "",
       "product/data type": "Engineering",
       "resolution": "",
-      "processing level": 2,
-      "description": ""
-    },
-    {
-      "key": "s5p_l1b",
-      "name": "S5P_L1B",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L1",
-      "resolution": "",
       "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s5p_l1b_ir_sir",
-      "name": "S5P_L1B_IR_SIR",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L1",
-      "resolution": "",
-      "processing level": "1b",
-      "description": "Sentinel-5P Level 1B Irradiance SWIR"
-    },
-    {
-      "key": "s5p_l1b_ir_uvn",
-      "name": "S5P_L1B_IR_UVN",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L1",
-      "resolution": "",
-      "processing level": "1b",
-      "description": "Sentinel-5P Level 1B Irradiance UVN"
-    },
-    {
-      "key": "s5p_l1b_ra",
-      "name": "S5P_L1B_RA_BD1",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L1",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s5p_l1b_ra_bd1",
-      "name": "S5P_L1B_RA_BD1",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L1",
-      "resolution": "",
-      "processing level": "1b",
-      "description": "Sentinel-5P Level 1B Radiance 1 NTC"
-    },
-    {
-      "key": "s5p_l1b_ra_bd2",
-      "name": "S5P_L1B_RA_BD2",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L1",
-      "resolution": "",
-      "processing level": "1b",
-      "description": "Sentinel-5P Level 1B Radiance 2 NTC"
-    },
-    {
-      "key": "s5p_l1b_ra_bd3",
-      "name": "S5P_L1B_RA_BD3",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L1",
-      "resolution": "",
-      "processing level": "1b",
-      "description": "Sentinel-5P Level 1B Radiance 3 NTC"
-    },
-    {
-      "key": "s5p_l1b_ra_bd4",
-      "name": "S5P_L1B_RA_BD4",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L1",
-      "resolution": "",
-      "processing level": "1b",
-      "description": "Sentinel-5P Level 1B Radiance 4 NTC"
-    },
-    {
-      "key": "s5p_l1b_ra_bd5",
-      "name": "S5P_L1B_RA_BD5",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L1",
-      "resolution": "",
-      "processing level": "1b",
-      "description": "Sentinel-5P Level 1B Radiance 5 NTC"
-    },
-    {
-      "key": "s5p_l1b_ra_bd6",
-      "name": "S5P_L1B_RA_BD6",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L1",
-      "resolution": "",
-      "processing level": "1b",
-      "description": "Sentinel-5P Level 1B Radiance 6 NTC"
-    },
-    {
-      "key": "s5p_l1b_ra_bd7",
-      "name": "S5P_L1B_RA_BD7",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L1",
-      "resolution": "",
-      "processing level": "1b",
-      "description": "Sentinel-5P Level 1B Radiance 7 NTC"
-    },
-    {
-      "key": "s5p_l1b_ra_bd8",
-      "name": "S5P_L1B_RA_BD8",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L1",
-      "resolution": "",
-      "processing level": "1b",
-      "description": "Sentinel-5P Level 1B Radiance 8 NTC"
-    },
-    {
-      "key": "s5p_l2__aer",
-      "name": "S5P_L2__AER",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L2",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s5p_l2__aer_ai",
-      "name": "S5P_L2__AER_AI",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L2",
-      "resolution": "",
-      "processing level": 2,
-      "description": "Sentinel-5P Level 2 UV aerosol index"
-    },
-    {
-      "key": "s5p_l2__aer_lh",
-      "name": "S5P_L2__AER_LH",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L2",
-      "resolution": "",
-      "processing level": 2,
-      "description": "Sentinel-5P Level 2 Aerosol layer height (midlevel) pressure"
-    },
-    {
-      "key": "s5p_l2__ch4___",
-      "name": "S5P_L2__CH4___",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L2",
-      "resolution": "",
-      "processing level": 2,
-      "description": "Sentinel-5P Level 2 Methane total column"
-    },
-    {
-      "key": "s5p_l2__cloud_",
-      "name": "S5P_L2__CLOUD_",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L2",
-      "resolution": "",
-      "processing level": 2,
-      "description": "Sentinel-5P Level 2 Cloud fraction, albedo, top pressure"
-    },
-    {
-      "key": "s5p_l2__co____",
-      "name": "S5P_L2__CO____",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L2",
-      "resolution": "",
-      "processing level": 2,
-      "description": "Sentinel-5P Level 2 Carbon monoxide total column"
-    },
-    {
-      "key": "s5p_l2__hcho__",
-      "name": "S5P_L2__HCHO__",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L2",
-      "resolution": "",
-      "processing level": 2,
-      "description": "Sentinel-5P Level 2 Formaldehyde total column"
-    },
-    {
-      "key": "s5p_l2__no2___",
-      "name": "S5P_L2__NO2___",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L2",
-      "resolution": "",
-      "processing level": 2,
-      "description": "Sentinel-5P Level 2 Nitrogen dioxide, total and tropospheric columns"
-    },
-    {
-      "key": "s5p_l2__np_bd3",
-      "name": "S5P_L2__NP_BD3",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L2",
-      "resolution": "",
-      "processing level": 2,
-      "description": "Sentinel-5P Level 2 Suomi-NPP VIIRS clouds"
-    },
-    {
-      "key": "s5p_l2__np_bd6",
-      "name": "S5P_L2__NP_BD6",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L2",
-      "resolution": "",
-      "processing level": 2,
-      "description": "Sentinel-5P Level 2 Suomi-NPP VIIRS clouds"
-    },
-    {
-      "key": "s5p_l2__np_bd7",
-      "name": "S5P_L2__NP_BD7",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L2",
-      "resolution": "",
-      "processing level": 2,
-      "description": "Sentinel-5P Level 2 Suomi-NPP VIIRS clouds"
-    },
-    {
-      "key": "s5p_l2__o3____",
-      "name": "S5P_L2__O3____",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L2",
-      "resolution": "",
-      "processing level": 2,
-      "description": "Sentinel-5P Level 2 Ozone total column"
-    },
-    {
-      "key": "s5p_l2__o3__pr",
-      "name": "S5P_L2__O3__PR",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L2",
-      "resolution": "",
-      "processing level": 2,
-      "description": "Sentinel-5P Level 2 Ozone profile"
-    },
-    {
-      "key": "s5p_l2__o3_tcl",
-      "name": "S5P_L2__O3_TCL",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L2",
-      "resolution": "",
-      "processing level": 2,
-      "description": "Sentinel-5P Level 2 Ozone tropospheric column"
-    },
-    {
-      "key": "s5p_l2__so2___",
-      "name": "S5P_L2__SO2___",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "L2",
-      "resolution": "",
-      "processing level": 2,
-      "description": "Sentinel-5P Level 2 Sulphur dioxide total column"
-    },
-    {
-      "key": "s5p_l1b_eng_db",
-      "name": "S5P_L1B_ENG_DB",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "1b",
       "description": ""
     },
     {
@@ -3696,16 +5586,6 @@
       "mission": "S5P",
       "beam mode": "",
       "product/data type": "AUX",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s5p_oper_aux_c",
-      "name": "S5P_OPER_AUX_C",
-      "mission": "S5P",
-      "beam mode": "",
-      "product/data type": "Engineering",
       "resolution": "",
       "processing level": "",
       "description": ""
@@ -3741,6 +5621,26 @@
       "description": ""
     },
     {
+      "key": "s5p_aux_nise__",
+      "name": "S5P_AUX_NISE__",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s5p_l1b",
+      "name": "S5P_L1B",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L1B",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s5p_l1b_ca_sir",
       "name": "S5P_L1B_CA_SIR",
       "mission": "S5P",
@@ -3761,11 +5661,401 @@
       "description": ""
     },
     {
-      "key": "s6_mw_2__amr____",
-      "name": "S6_MW_2__AMR____",
-      "mission": "S6",
+      "key": "s5p_l1b_eng_db",
+      "name": "S5P_L1B_ENG_DB",
+      "mission": "S5P",
       "beam mode": "",
-      "product/data type": "AMR-C",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "1b",
+      "description": ""
+    },
+    {
+      "key": "s5p_l1b_ir_sir",
+      "name": "S5P_L1B_IR_SIR",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L1B IR",
+      "resolution": "",
+      "processing level": "1b",
+      "description": "Sentinel-5P Level 1B Irradiance SWIR"
+    },
+    {
+      "key": "s5p_l1b_ir_uvn",
+      "name": "S5P_L1B_IR_UVN",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L1B IR",
+      "resolution": "",
+      "processing level": "1b",
+      "description": "Sentinel-5P Level 1B Irradiance UVN"
+    },
+    {
+      "key": "s5p_l1b_ra",
+      "name": "S5P_L1B_RA_BD1",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L1B RA",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s5p_l1b_ra_bd1",
+      "name": "S5P_L1B_RA_BD1",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L1B RA",
+      "resolution": "",
+      "processing level": "1b",
+      "description": "Sentinel-5P Level 1B Radiance 1 NTC"
+    },
+    {
+      "key": "s5p_l1b_ra_bd2",
+      "name": "S5P_L1B_RA_BD2",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L1B RA",
+      "resolution": "",
+      "processing level": "1b",
+      "description": "Sentinel-5P Level 1B Radiance 2 NTC"
+    },
+    {
+      "key": "s5p_l1b_ra_bd3",
+      "name": "S5P_L1B_RA_BD3",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L1B RA",
+      "resolution": "",
+      "processing level": "1b",
+      "description": "Sentinel-5P Level 1B Radiance 3 NTC"
+    },
+    {
+      "key": "s5p_l1b_ra_bd4",
+      "name": "S5P_L1B_RA_BD4",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L1B RA",
+      "resolution": "",
+      "processing level": "1b",
+      "description": "Sentinel-5P Level 1B Radiance 4 NTC"
+    },
+    {
+      "key": "s5p_l1b_ra_bd5",
+      "name": "S5P_L1B_RA_BD5",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L1B RA",
+      "resolution": "",
+      "processing level": "1b",
+      "description": "Sentinel-5P Level 1B Radiance 5 NTC"
+    },
+    {
+      "key": "s5p_l1b_ra_bd6",
+      "name": "S5P_L1B_RA_BD6",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L1B RA",
+      "resolution": "",
+      "processing level": "1b",
+      "description": "Sentinel-5P Level 1B Radiance 6 NTC"
+    },
+    {
+      "key": "s5p_l1b_ra_bd7",
+      "name": "S5P_L1B_RA_BD7",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L1B RA",
+      "resolution": "",
+      "processing level": "1b",
+      "description": "Sentinel-5P Level 1B Radiance 7 NTC"
+    },
+    {
+      "key": "s5p_l1b_ra_bd8",
+      "name": "S5P_L1B_RA_BD8",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L1B RA",
+      "resolution": "",
+      "processing level": "1b",
+      "description": "Sentinel-5P Level 1B Radiance 8 NTC"
+    },
+    {
+      "key": "s5p_l2__aer",
+      "name": "S5P_L2__AER",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 AER",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s5p_l2__aer___",
+      "name": "S5P_L2__AER___",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 AER",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s5p_l2__aer_ai",
+      "name": "S5P_L2__AER_AI",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 AER_AI",
+      "resolution": "",
+      "processing level": 2,
+      "description": "Sentinel-5P Level 2 UV aerosol index"
+    },
+    {
+      "key": "s5p_l2__aer_lh",
+      "name": "S5P_L2__AER_LH",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 AER_LH",
+      "resolution": "",
+      "processing level": 2,
+      "description": "Sentinel-5P Level 2 Aerosol layer height (midlevel) pressure"
+    },
+    {
+      "key": "s5p_l2__aer_ot",
+      "name": "S5P_L2__AER_OT",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s5p_l2__auxdem",
+      "name": "S5P_L2__AUXDEM",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "AUX",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s5p_l2__bro___",
+      "name": "S5P_L2__BRO___",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s5p_l2__ch4___",
+      "name": "S5P_L2__CH4___",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 CH4",
+      "resolution": "",
+      "processing level": 2,
+      "description": "Sentinel-5P Level 2 Methane total column"
+    },
+    {
+      "key": "s5p_l2__chocho",
+      "name": "S5P_L2__CHOCHO",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s5p_l2__cloud_",
+      "name": "S5P_L2__CLOUD_",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 CLOUD",
+      "resolution": "",
+      "processing level": 2,
+      "description": "Sentinel-5P Level 2 Cloud fraction, albedo, top pressure"
+    },
+    {
+      "key": "s5p_l2__co____",
+      "name": "S5P_L2__CO____",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 CO",
+      "resolution": "",
+      "processing level": 2,
+      "description": "Sentinel-5P Level 2 Carbon monoxide total column"
+    },
+    {
+      "key": "s5p_l2__fresco",
+      "name": "S5P_L2__FRESCO",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": 2,
+      "description": ""
+    },
+    {
+      "key": "s5p_l2__hcho__",
+      "name": "S5P_L2__HCHO__",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 HCHO",
+      "resolution": "",
+      "processing level": 2,
+      "description": "Sentinel-5P Level 2 Formaldehyde total column"
+    },
+    {
+      "key": "s5p_l2__no2___",
+      "name": "S5P_L2__NO2___",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 NO2",
+      "resolution": "",
+      "processing level": 2,
+      "description": "Sentinel-5P Level 2 Nitrogen dioxide, total and tropospheric columns"
+    },
+    {
+      "key": "s5p_l2__np_bd3",
+      "name": "S5P_L2__NP_BD3",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 NPP CLOUD",
+      "resolution": "",
+      "processing level": 2,
+      "description": "Sentinel-5P Level 2 Suomi-NPP VIIRS clouds"
+    },
+    {
+      "key": "s5p_l2__np_bd6",
+      "name": "S5P_L2__NP_BD6",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 NPP CLOUD",
+      "resolution": "",
+      "processing level": 2,
+      "description": "Sentinel-5P Level 2 Suomi-NPP VIIRS clouds"
+    },
+    {
+      "key": "s5p_l2__np_bd7",
+      "name": "S5P_L2__NP_BD7",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 NPP CLOUD",
+      "resolution": "",
+      "processing level": 2,
+      "description": "Sentinel-5P Level 2 Suomi-NPP VIIRS clouds"
+    },
+    {
+      "key": "s5p_l2__o3____",
+      "name": "S5P_L2__O3____",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 O3",
+      "resolution": "",
+      "processing level": 2,
+      "description": "Sentinel-5P Level 2 Ozone total column"
+    },
+    {
+      "key": "s5p_l2__o3__pr",
+      "name": "S5P_L2__O3__PR",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 O3_PR",
+      "resolution": "",
+      "processing level": 2,
+      "description": "Sentinel-5P Level 2 Ozone profile"
+    },
+    {
+      "key": "s5p_l2__o3_tcl",
+      "name": "S5P_L2__O3_TCL",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 O3_TCL",
+      "resolution": "",
+      "processing level": 2,
+      "description": "Sentinel-5P Level 2 Ozone tropospheric column"
+    },
+    {
+      "key": "s5p_l2__oclo__",
+      "name": "S5P_L2__OCLO__",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s5p_l2__sif___",
+      "name": "S5P_L2__SIF___",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s5p_l2__so2___",
+      "name": "S5P_L2__SO2___",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 SO2",
+      "resolution": "",
+      "processing level": 2,
+      "description": "Sentinel-5P Level 2 Sulphur dioxide total column"
+    },
+    {
+      "key": "s5p_l2__tcwv__",
+      "name": "S5P_L2__TCWV__",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s5p_l2_aer_ai",
+      "name": "S5P_L2__AER_AI",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 AER_AI",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s5p_l2_co___",
+      "name": "S5P_L2__CO___",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "L2 CO",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s5p_l2b_sif___",
+      "name": "S5P_L2B_SIF___",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "Engineering",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
+      "key": "s5p_oper_aux_c",
+      "name": "S5P_OPER_AUX_C",
+      "mission": "S5P",
+      "beam mode": "",
+      "product/data type": "Engineering",
       "resolution": "",
       "processing level": "",
       "description": ""
@@ -3821,6 +6111,16 @@
       "description": ""
     },
     {
+      "key": "s6_mw_2__amr____",
+      "name": "S6_MW_2__AMR____",
+      "mission": "S6",
+      "beam mode": "",
+      "product/data type": "AMR-C",
+      "resolution": "",
+      "processing level": "",
+      "description": ""
+    },
+    {
       "key": "s6_p4_1b_lr_____",
       "name": "S6_P4_1B_LR_____",
       "mission": "S6",
@@ -3839,26 +6139,6 @@
       "resolution": "",
       "processing level": "",
       "description": ""
-    },
-    {
-      "key": "sm_mir_sc_d1b",
-      "name": "SM_MIR_SC_D1B",
-      "mission": "SM",
-      "beam mode": "",
-      "product/data type": "-",
-      "resolution": "",
-      "processing level": "",
-      "description": "SMOS"
-    },
-    {
-      "key": "sm_mir_sc_f1b",
-      "name": "SM_MIR_SC_F1B",
-      "mission": "SM",
-      "beam mode": "",
-      "product/data type": "-",
-      "resolution": "",
-      "processing level": "",
-      "description": "SMOS"
     },
     {
       "key": "sm_mir_bwld1c",
@@ -3881,8 +6161,8 @@
       "description": "SMOS"
     },
     {
-      "key": "sm_mir_sclf1c",
-      "name": "SM_MIR_SCLF1C",
+      "key": "sm_mir_bwsd1c",
+      "name": "SM_MIR_BWSD1C",
       "mission": "SM",
       "beam mode": "",
       "product/data type": "-",
@@ -3911,8 +6191,8 @@
       "description": "SMOS"
     },
     {
-      "key": "sm_mir_smudp2",
-      "name": "SM_MIR_SMUDP2",
+      "key": "sm_mir_sc_d1b",
+      "name": "SM_MIR_SC_D1B",
       "mission": "SM",
       "beam mode": "",
       "product/data type": "-",
@@ -3921,8 +6201,8 @@
       "description": "SMOS"
     },
     {
-      "key": "sm_mir_bwsd1c",
-      "name": "SM_MIR_BWSD1C",
+      "key": "sm_mir_sc_f1b",
+      "name": "SM_MIR_SC_F1B",
       "mission": "SM",
       "beam mode": "",
       "product/data type": "-",
@@ -3933,6 +6213,16 @@
     {
       "key": "sm_mir_scld1c",
       "name": "SM_MIR_SCLD1C",
+      "mission": "SM",
+      "beam mode": "",
+      "product/data type": "-",
+      "resolution": "",
+      "processing level": "",
+      "description": "SMOS"
+    },
+    {
+      "key": "sm_mir_sclf1c",
+      "name": "SM_MIR_SCLF1C",
       "mission": "SM",
       "beam mode": "",
       "product/data type": "-",
@@ -3961,609 +6251,19 @@
       "description": "SMOS"
     },
     {
-      "key": "gm_s2msi_l3__mcq",
-      "name": "",
-      "mission": "Global-Mosaics ",
+      "key": "sm_mir_smudp2",
+      "name": "SM_MIR_SMUDP2",
+      "mission": "SM",
       "beam mode": "",
       "product/data type": "-",
       "resolution": "",
       "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "gm_s2msi_l3__wcy",
-      "name": "",
-      "mission": "Global-Mosaics ",
-      "beam mode": "",
-      "product/data type": "-",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "gm_s1sar_l3_iw_mcm",
-      "name": " ",
-      "mission": "Global-Mosaics ",
-      "beam mode": "",
-      "product/data type": "-",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "gm_s1sar_l3_dh_mcm",
-      "name": " ",
-      "mission": "Global-Mosaics ",
-      "beam mode": "",
-      "product/data type": "-",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "gm_s2msi_l3__mcq_lr",
-      "name": "",
-      "mission": "Global-Mosaics ",
-      "beam mode": "",
-      "product/data type": "-",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "gm_s1sar_l3_iw_mcm_lr",
-      "name": "",
-      "mission": "Global-Mosaics ",
-      "beam mode": "",
-      "product/data type": "-",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "gm_sentinel-1_dh",
-      "name": "GM_SENTINEL-1_DH",
-      "mission": "Global-Mosaics ",
-      "beam mode": "",
-      "product/data type": "-",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "gm_sentinel-1_ew",
-      "name": "GM_SENTINEL-1_EW",
-      "mission": "Global-Mosaics ",
-      "beam mode": "",
-      "product/data type": "-",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "gm_sentinel-1_iw",
-      "name": "GM_SENTINEL-1_IW",
-      "mission": "Global-Mosaics ",
-      "beam mode": "",
-      "product/data type": "-",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "gm_sentinel-2",
-      "name": "GM_SENTINEL-2",
-      "mission": "Global-Mosaics ",
-      "beam mode": "",
-      "product/data type": "-",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_aux_pp2",
-      "name": "",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "-",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_mw_1_nir_ax",
-      "name": "",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sr_2_pol_ax",
-      "name": "",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sr_1_ca2kax",
-      "name": "",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s3_sr_1_ca1lax",
-      "name": "",
-      "mission": "S3",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_gp_raw__0__",
-      "name": "",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "Engineering",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_aux_pp1",
-      "name": "",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "AUX",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_aux_ml2",
-      "name": "",
-      "mission": "S1",
-      "beam mode": "",
-      "product/data type": "AUX",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "gm_s1sar_l3_dh_mcm_lr",
-      "name": "",
-      "mission": "Global-Mosaics ",
-      "beam mode": "",
-      "product/data type": "-",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "s1_gp_raw__0____c",
-      "name": "",
-      "mission": "",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clmsarchive_arlie",
-      "name": "CLMSARCHIVE_ARLIE",
-      "mission": "CLMS_ARCHIVE",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clmsarchive_fsc",
-      "name": "CLMSARCHIVE_FSC",
-      "mission": "CLMS_ARCHIVE",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clmsarchive_gfsc",
-      "name": "CLMSARCHIVE_GFSC",
-      "mission": "CLMS_ARCHIVE",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clmsarchive_psa",
-      "name": "CLMSARCHIVE_PSA",
-      "mission": "CLMS_ARCHIVE",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clmsarchive_rlie",
-      "name": "CLMSARCHIVE_RLIE",
-      "mission": "CLMS_ARCHIVE",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clmsarchive_sws",
-      "name": "CLMSARCHIVE_SWS",
-      "mission": "CLMS_ARCHIVE",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clmsarchive_wds",
-      "name": "CLMSARCHIVE_WDS",
-      "mission": "CLMS_ARCHIVE",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_ba_global_300m_daily_v3",
-      "name": "CLMS_BA_GLOBAL_300M_DAILY_V3",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_ba_global_300m_daily_v4",
-      "name": "CLMS_BA_GLOBAL_300M_DAILY_V4",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_ba_global_300m_monthly_v3",
-      "name": "CLMS_BA_GLOBAL_300M_MONTHLY_V3",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_ba_global_300m_monthly_v4",
-      "name": "CLMS_BA_GLOBAL_300M_MONTHLY_V4",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_ba_v1",
-      "name": "CLMS_BA_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_ba_v1_300",
-      "name": "CLMS_BA_V1_300",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_directional_v1",
-      "name": "CLMS_DIRECTIONAL_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_dmp_global_1km_10daily_v2",
-      "name": "CLMS_DMP_GLOBAL_1KM_10DAILY_V2",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_dmp_global_300m_10daily_v1",
-      "name": "CLMS_DMP_GLOBAL_300M_10DAILY_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_dmp_v1",
-      "name": "CLMS_DMP_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_fapar_global_1km_10daily_v2",
-      "name": "CLMS_FAPAR_GLOBAL_1KM_10DAILY_V2",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_fapar_global_300m_10daily_v1",
-      "name": "CLMS_FAPAR_GLOBAL_300M_10DAILY_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_fcover_1km_global_v1",
-      "name": "CLMS_FCOVER_1KM_GLOBAL_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_fcover_global_1km_10daily_v2",
-      "name": "CLMS_FCOVER_GLOBAL_1KM_10DAILY_V2",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_fcover_global_300m_10daily_v1",
-      "name": "CLMS_FCOVER_GLOBAL_300M_10DAILY_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_gdmp_global_1km_10daily_v2",
-      "name": "CLMS_GDMP_GLOBAL_1KM_10DAILY_V2",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_gdmp_global_300m_10daily_v1",
-      "name": "CLMS_GDMP_GLOBAL_300M_10DAILY_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_gpp_global_300m_10daily_v1",
-      "name": "CLMS_GPP_GLOBAL_300M_10DAILY_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_lai_1km_global_v1",
-      "name": "CLMS_LAI_1KM_GLOBAL_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_lai_global_1km_10daily_v2",
-      "name": "CLMS_LAI_GLOBAL_1KM_10DAILY_V2",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_lai_global_300m_10daily_v1",
-      "name": "CLMS_LAI_GLOBAL_300M_10DAILY_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_lc_global_100m_yearly_v3",
-      "name": "CLMS_LC_GLOBAL_100M_YEARLY_V3",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_lcm_global_10m_yearly_v1",
-      "name": "CLMS_LCM_GLOBAL_10M_YEARLY_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_lcm_global_300m_yearly_v1",
-      "name": "CLMS_LCM_GLOBAL_300M_YEARLY_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_lie_baltic_250m_daily_v1",
-      "name": "CLMS_LIE_BALTIC_250M_DAILY_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_lie_europe_250m_daily_v2",
-      "name": "CLMS_LIE_EUROPE_250M_DAILY_V2",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_lie_global_500m_daily_v2",
-      "name": "CLMS_LIE_GLOBAL_500M_DAILY_V2",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_lie_northernhemisphere_500m_daily_v1",
-      "name": "CLMS_LIE_NORTHERNHEMISPHERE_500M_DAILY_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_lsp_global_300m_yearly_v1",
-      "name": "CLMS_LSP_GLOBAL_300M_YEARLY_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_lsp_global_300m_yearly_v2",
-      "name": "CLMS_LSP_GLOBAL_300M_YEARLY_V2",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_lst-daily-cycle_global_5km_10daily_v1",
-      "name": "CLMS_LST-DAILY-CYCLE_GLOBAL_5KM_10DAILY_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_lst-daily-cycle_global_5km_10daily_v2",
-      "name": "CLMS_LST-DAILY-CYCLE_GLOBAL_5KM_10DAILY_V2",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
-    },
-    {
-      "key": "clms_lst_global_5km_hourly_v1",
-      "name": "CLMS_LST_GLOBAL_5KM_HOURLY_V1",
-      "mission": "CLMS",
-      "beam mode": "",
-      "product/data type": "",
-      "resolution": "",
-      "processing level": "",
-      "description": ""
+      "description": "SMOS"
     },
     {
-      "key": "clms_lst_global_5km_hourly_v2",
-      "name": "CLMS_LST_GLOBAL_5KM_HOURLY_V2",
-      "mission": "CLMS",
+      "key": "terraaqua_mcd12q1.061",
+      "name": "MCD12Q1.061",
+      "mission": "TERRAAQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4571,9 +6271,9 @@
       "description": ""
     },
     {
-      "key": "clms_lst-tci_global_5km_10daily_v1",
-      "name": "CLMS_LST-TCI_GLOBAL_5KM_10DAILY_V1",
-      "mission": "CLMS",
+      "key": "terraaqua_mcd15a2h.061",
+      "name": "MCD15A2H.061",
+      "mission": "TERRAAQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4581,9 +6281,9 @@
       "description": ""
     },
     {
-      "key": "clms_lst-tci_global_5km_10daily_v2",
-      "name": "CLMS_LST-TCI_GLOBAL_5KM_10DAILY_V2",
-      "mission": "CLMS",
+      "key": "terraaqua_mcd15a3h.061",
+      "name": "MCD15A3H.061",
+      "mission": "TERRAAQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4591,9 +6291,9 @@
       "description": ""
     },
     {
-      "key": "clms_lswt-nrt_global_1km_10daily_v1",
-      "name": "CLMS_LSWT-NRT_GLOBAL_1KM_10DAILY_V1",
-      "mission": "CLMS",
+      "key": "terraaqua_mcd43a4.061",
+      "name": "MCD43A4.061",
+      "mission": "TERRAAQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4601,9 +6301,9 @@
       "description": ""
     },
     {
-      "key": "clms_lswt-offline_global_1km_10daily_v1",
-      "name": "CLMS_LSWT-OFFLINE_GLOBAL_1KM_10DAILY_V1",
-      "mission": "CLMS",
+      "key": "terraaqua_mcd64a1.061",
+      "name": "MCD64A1.061",
+      "mission": "TERRAAQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4611,9 +6311,9 @@
       "description": ""
     },
     {
-      "key": "clms_lwq-nrt_global_100m_10daily_v1",
-      "name": "CLMS_LWQ-NRT_GLOBAL_100M_10DAILY_V1",
-      "mission": "CLMS",
+      "key": "terra_astgtm_nc.003",
+      "name": "ASTGTM_NC.003",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4621,9 +6321,9 @@
       "description": ""
     },
     {
-      "key": "clms_lwq-nrt_global_100m_10daily_v2",
-      "name": "CLMS_LWQ-NRT_GLOBAL_100M_10DAILY_V2",
-      "mission": "CLMS",
+      "key": "terra_mod09a1.061",
+      "name": "MOD09A1.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4631,9 +6331,9 @@
       "description": ""
     },
     {
-      "key": "clms_lwq-nrt_global_1km_10daily_v1",
-      "name": "CLMS_LWQ-NRT_GLOBAL_1KM_10DAILY_V1",
-      "mission": "CLMS",
+      "key": "terra_mod09q1.061",
+      "name": "MOD09Q1.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4641,9 +6341,9 @@
       "description": ""
     },
     {
-      "key": "clms_lwq-nrt_global_300m_10daily_v1",
-      "name": "CLMS_LWQ-NRT_GLOBAL_300M_10DAILY_V1",
-      "mission": "CLMS",
+      "key": "terra_mod10a1",
+      "name": "MOD10A1",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4651,9 +6351,9 @@
       "description": ""
     },
     {
-      "key": "clms_lwq-nrt_global_300m_10daily_v2",
-      "name": "CLMS_LWQ-NRT_GLOBAL_300M_10DAILY_V2",
-      "mission": "CLMS",
+      "key": "terra_mod10a1.061",
+      "name": "MOD10A1.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4661,9 +6361,9 @@
       "description": ""
     },
     {
-      "key": "clms_lwq-reproc_global_1km_10daily_v1",
-      "name": "CLMS_LWQ-REPROC_GLOBAL_1KM_10DAILY_V1",
-      "mission": "CLMS",
+      "key": "terra_mod10a2.061",
+      "name": "MOD10A2.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4671,9 +6371,9 @@
       "description": ""
     },
     {
-      "key": "clms_lwq-reproc_global_300m_10daily_v1",
-      "name": "CLMS_LWQ-REPROC_GLOBAL_300M_10DAILY_V1",
-      "mission": "CLMS",
+      "key": "terra_mod11a1.061",
+      "name": "MOD11A1.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4681,9 +6381,9 @@
       "description": ""
     },
     {
-      "key": "clms_ndvi_1km_v2",
-      "name": "CLMS_NDVI_1KM_V2",
-      "mission": "CLMS",
+      "key": "terra_mod11a2.061",
+      "name": "MOD11A2.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4691,9 +6391,9 @@
       "description": ""
     },
     {
-      "key": "clms_ndvi_global_1km_10daily_v2",
-      "name": "CLMS_NDVI_GLOBAL_1KM_10DAILY_V2",
-      "mission": "CLMS",
+      "key": "terra_mod13a1.061",
+      "name": "MOD13A1.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4701,9 +6401,9 @@
       "description": ""
     },
     {
-      "key": "clms_ndvi_global_1km_10daily_v3",
-      "name": "CLMS_NDVI_GLOBAL_1KM_10DAILY_V3",
-      "mission": "CLMS",
+      "key": "terra_mod13a2.061",
+      "name": "MOD13A2.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4711,9 +6411,9 @@
       "description": ""
     },
     {
-      "key": "clms_ndvi_global_300m_10daily_v1",
-      "name": "CLMS_NDVI_GLOBAL_300M_10DAILY_V1",
-      "mission": "CLMS",
+      "key": "terra_mod13q1.061",
+      "name": "MOD13Q1.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4721,9 +6421,9 @@
       "description": ""
     },
     {
-      "key": "clms_ndvi_global_300m_10daily_v2",
-      "name": "CLMS_NDVI_GLOBAL_300M_10DAILY_V2",
-      "mission": "CLMS",
+      "key": "terra_mod14a1.061",
+      "name": "MOD14A1.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4731,9 +6431,9 @@
       "description": ""
     },
     {
-      "key": "clms_ndvi-lts_global_1km_10daily_v2",
-      "name": "CLMS_NDVI-LTS_GLOBAL_1KM_10DAILY_V2",
-      "mission": "CLMS",
+      "key": "terra_mod14a2.061",
+      "name": "MOD14A2.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4741,9 +6441,9 @@
       "description": ""
     },
     {
-      "key": "clms_ndvi-lts_global_1km_10daily_v3",
-      "name": "CLMS_NDVI-LTS_GLOBAL_1KM_10DAILY_V3",
-      "mission": "CLMS",
+      "key": "terra_mod15a2h.061",
+      "name": "MOD15A2H.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4751,9 +6451,9 @@
       "description": ""
     },
     {
-      "key": "clms_ndvi-sts_global_1km_10daily_v3",
-      "name": "CLMS_NDVI-STS_GLOBAL_1KM_10DAILY_V3",
-      "mission": "CLMS",
+      "key": "terra_mod16a2gf.061",
+      "name": "MOD16A2GF.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4761,9 +6461,9 @@
       "description": ""
     },
     {
-      "key": "clms_npp_global_300m_10daily_v1",
-      "name": "CLMS_NPP_GLOBAL_300M_10DAILY_V1",
-      "mission": "CLMS",
+      "key": "terra_mod16a3gf.061",
+      "name": "MOD16A3GF.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4771,9 +6471,9 @@
       "description": ""
     },
     {
-      "key": "clms_sce_europe_500m_daily_v1",
-      "name": "CLMS_SCE_EUROPE_500M_DAILY_V1",
-      "mission": "CLMS",
+      "key": "terra_mod17a2h.061",
+      "name": "MOD17A2H.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4781,9 +6481,9 @@
       "description": ""
     },
     {
-      "key": "clms_sce_northernhemisphere_1km_daily_v1",
-      "name": "CLMS_SCE_NORTHERNHEMISPHERE_1KM_DAILY_V1",
-      "mission": "CLMS",
+      "key": "terra_mod17a2hgf.061",
+      "name": "MOD17A2HGF.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4791,9 +6491,9 @@
       "description": ""
     },
     {
-      "key": "clms_ssm_europe_1km_daily_v1",
-      "name": "CLMS_SSM_EUROPE_1KM_DAILY_V1",
-      "mission": "CLMS",
+      "key": "terra_mod17a3hgf.061",
+      "name": "MOD17A3HGF.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4801,9 +6501,9 @@
       "description": ""
     },
     {
-      "key": "clms_swe_northernhemisphere_5km_daily_v1",
-      "name": "CLMS_SWE_NORTHERNHEMISPHERE_5KM_DAILY_V1",
-      "mission": "CLMS",
+      "key": "terra_mod21a1d.061",
+      "name": "MOD21A1D.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4811,9 +6511,9 @@
       "description": ""
     },
     {
-      "key": "clms_swe_northernhemisphere_5km_daily_v2",
-      "name": "CLMS_SWE_NORTHERNHEMISPHERE_5KM_DAILY_V2",
-      "mission": "CLMS",
+      "key": "terra_mod21a1n.061",
+      "name": "MOD21A1N.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4821,9 +6521,9 @@
       "description": ""
     },
     {
-      "key": "clms_swi10_v3",
-      "name": "CLMS_SWI10_V3",
-      "mission": "CLMS",
+      "key": "terra_mod21a2.061",
+      "name": "MOD21A2.061",
+      "mission": "TERRA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4831,9 +6531,9 @@
       "description": ""
     },
     {
-      "key": "clms_swi_europe_1km_daily_v1",
-      "name": "CLMS_SWI_EUROPE_1KM_DAILY_V1",
-      "mission": "CLMS",
+      "key": "aqua_myd09a1.061",
+      "name": "MYD09A1.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4841,9 +6541,9 @@
       "description": ""
     },
     {
-      "key": "clms_swi_europe_1km_daily_v2",
-      "name": "CLMS_SWI_EUROPE_1KM_DAILY_V2",
-      "mission": "CLMS",
+      "key": "aqua_myd09q1.061",
+      "name": "MYD09Q1.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4851,9 +6551,9 @@
       "description": ""
     },
     {
-      "key": "clms_swi_global_12.5km_10daily_v3",
-      "name": "CLMS_SWI_GLOBAL_12.5KM_10DAILY_V3",
-      "mission": "CLMS",
+      "key": "aqua_myd10a1.061",
+      "name": "MYD10A1.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4861,9 +6561,9 @@
       "description": ""
     },
     {
-      "key": "clms_swi_global_12.5km_10daily_v4",
-      "name": "CLMS_SWI_GLOBAL_12.5KM_10DAILY_V4",
-      "mission": "CLMS",
+      "key": "aqua_myd10a2.061",
+      "name": "MYD10A2.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4871,9 +6571,9 @@
       "description": ""
     },
     {
-      "key": "clms_swi_global_12.5km_daily_v3",
-      "name": "CLMS_SWI_GLOBAL_12.5KM_DAILY_V3",
-      "mission": "CLMS",
+      "key": "aqua_myd11a1.061",
+      "name": "MYD11A1.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4881,9 +6581,9 @@
       "description": ""
     },
     {
-      "key": "clms_swi_global_12.5km_daily_v4",
-      "name": "CLMS_SWI_GLOBAL_12.5KM_DAILY_V4",
-      "mission": "CLMS",
+      "key": "aqua_myd11a2.061",
+      "name": "MYD11A2.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4891,9 +6591,9 @@
       "description": ""
     },
     {
-      "key": "clms_swi-static_global_12.5km_daily_v3",
-      "name": "CLMS_SWI-STATIC_GLOBAL_12.5KM_DAILY_V3",
-      "mission": "CLMS",
+      "key": "aqua_myd13a1.061",
+      "name": "MYD13A1.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4901,9 +6601,9 @@
       "description": ""
     },
     {
-      "key": "clms_swi-timeseries_global_12.5km_daily_v3",
-      "name": "CLMS_SWI-TIMESERIES_GLOBAL_12.5KM_DAILY_V3",
-      "mission": "CLMS",
+      "key": "aqua_myd13a2.061",
+      "name": "MYD13A2.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4911,9 +6611,9 @@
       "description": ""
     },
     {
-      "key": "clms_tcd_pantropical_10m_yearly_v1",
-      "name": "CLMS_TCD_PANTROPICAL_10M_YEARLY_V1",
-      "mission": "CLMS",
+      "key": "aqua_myd13q1.061",
+      "name": "MYD13Q1.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4921,9 +6621,9 @@
       "description": ""
     },
     {
-      "key": "clms_tcd_pantropical_300m_yearly_v1",
-      "name": "CLMS_TCD_PANTROPICAL_300M_YEARLY_V1",
-      "mission": "CLMS",
+      "key": "aqua_myd14a1.061",
+      "name": "MYD14A1.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4931,9 +6631,9 @@
       "description": ""
     },
     {
-      "key": "clms_toc_global_300m_daily_v2",
-      "name": "CLMS_TOC_GLOBAL_300M_DAILY_V2",
-      "mission": "CLMS",
+      "key": "aqua_myd14a2.061",
+      "name": "MYD14A2.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4941,9 +6641,9 @@
       "description": ""
     },
     {
-      "key": "clms_wb_global_100m_monthly_v1",
-      "name": "CLMS_WB_GLOBAL_100M_MONTHLY_V1",
-      "mission": "CLMS",
+      "key": "aqua_myd15a2h.061",
+      "name": "MYD15A2H.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4951,9 +6651,9 @@
       "description": ""
     },
     {
-      "key": "clms_wb_global_1km_10daily_v2",
-      "name": "CLMS_WB_GLOBAL_1KM_10DAILY_V2",
-      "mission": "CLMS",
+      "key": "aqua_myd16a3gf.061",
+      "name": "MYD16A3GF.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4961,9 +6661,9 @@
       "description": ""
     },
     {
-      "key": "clms_wb_global_300m_10daily_v1",
-      "name": "CLMS_WB_GLOBAL_300M_10DAILY_V1",
-      "mission": "CLMS",
+      "key": "aqua_myd17a2h.061",
+      "name": "MYD17A2H.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4971,9 +6671,9 @@
       "description": ""
     },
     {
-      "key": "clms_wb_global_300m_monthly_v2",
-      "name": "CLMS_WB_GLOBAL_300M_MONTHLY_V2",
-      "mission": "CLMS",
+      "key": "aqua_myd17a2hgf.061",
+      "name": "MYD17A2HGF.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4981,9 +6681,9 @@
       "description": ""
     },
     {
-      "key": "clms_wl-lakes_global_vector_daily_v2",
-      "name": "CLMS_WL-LAKES_GLOBAL_VECTOR_DAILY_V2",
-      "mission": "CLMS",
+      "key": "aqua_myd17a3hgf.061",
+      "name": "MYD17A3HGF.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",
@@ -4991,9 +6691,9 @@
       "description": ""
     },
     {
-      "key": "clms_wl-rivers_global_vector_daily_v2",
-      "name": "CLMS_WL-RIVERS_GLOBAL_VECTOR_DAILY_V2",
-      "mission": "CLMS",
+      "key": "aqua_myd21a2.061",
+      "name": "MYD21A2.061",
+      "mission": "AQUA",
       "beam mode": "",
       "product/data type": "",
       "resolution": "",

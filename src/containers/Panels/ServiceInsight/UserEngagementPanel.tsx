@@ -79,7 +79,10 @@ const UserEngagementPanel = () => {
         </div>
       </div>
       <div className="grid-item" key={'f0'}>
-        <Chart type="bar" metric={metrics[6]} reduceList />
+        <Counter metric={metrics[6]} />
+      </div>
+      <div className="grid-item" key={'f1'}>
+        <Chart type="timeline" metric={metrics[6]} />
       </div>
     </PanelWrapper>
   );

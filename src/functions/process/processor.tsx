@@ -602,7 +602,7 @@ export class Processor {
         timeline.values = combined.map((el) => el.values);
         let timestamps = timeline.timestamps?.map((ts) => ts * 1000);
         timeline.product_names = timeline.product_names.map((p) =>
-          p.toLowerCase()
+          p === 'all_products' ? 'Total' : p.toLowerCase()
         );
         // If Metric have codelist and can group
         if (codelist) {

@@ -232,7 +232,6 @@ export interface DataStore {
     codelistRaw: any;
   };
   data: Processor;
-  statusChecker: Processor;
   loading: boolean;
   interval: ReturnType<typeof setInterval> | null;
   refreshed: string | null;
@@ -263,7 +262,6 @@ export const useDataStore = create<DataStore>((set, get) => ({
   firstTimeOverlay: true,
   layoutRef: null,
   metricStatus: [],
-  statusChecker: null,
   tempData: localStorage.getItem('isTemp') === 'true' ? true : false,
 
   setLayoutRef: (layoutRef) => set({ layoutRef }),
@@ -368,7 +366,6 @@ export const useDataStore = create<DataStore>((set, get) => ({
     // Create new Processor or update date on refresh, set codelist
     set({
       data: new Processor(sortedData, timelines, get().cls),
-      statusChecker: new Processor(sortedData, timelines, get().cls),
     });
 
     // Set refresh time and start interval
