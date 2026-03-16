@@ -14,9 +14,10 @@ const ServicesTable = ({ metrics }: { metrics: MetricInfo[] }) => {
 
   let data = metrics.map((m) => ({
     ...p.listData(m, !location, '--cssec'),
-    tmpShouldShowLowPerformingWarning: ['openeo3', 'openeo4', 'openeo6'].some(
-      (id) => id === m.id
-    ),
+    // if the name from the configuration jsons is in the array, show the warning, otherwise hide it
+    tmpShouldShowLowPerformingWarning: [
+      /*'openeo3', 'openeo4', 'openeo6'*/
+    ].some((id) => id === m.id),
   }));
   return (
     <div className="flex flex-col w-full rounded-md">
