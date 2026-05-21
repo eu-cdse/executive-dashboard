@@ -54,7 +54,8 @@ const Slide4 = [
     text: 'Total number of CCM missions',
     minText: 'since the start of operations',
     icon: <OverlayIcons icon="totalVolume" />,
-    metrics: ['smmp7__sin__num_ccm_ds'],
+    metrics: ['smmp7__rhea__num_ccm_ds'],
+    specificMetricName: 'dp_total_num_ccm_missions',
   },
   {
     text: 'Total volume of CCM products',
