@@ -121,7 +121,7 @@ const InfoOverlay = () => {
     (state) => [state.setShowOverview, state.refreshed],
     shallow
   );
-  const { width, height } = useWindowSize();
+  const { height } = useWindowSize();
   let location = useLocation().pathname.split('/').pop();
 
   const filter = (node: HTMLElement) => {
@@ -172,7 +172,7 @@ const InfoOverlay = () => {
   }, [activeSlide.id]);
 
   location = location === 'service-insight' ? null : location;
-  if (width < 1170 || height < 730 || location) return null;
+  if (height < 600 || location) return null;
 
   let { Component, data, id } = activeSlide;
   let isDark = document.documentElement.getAttribute('data-theme') === 'dark';
@@ -220,7 +220,7 @@ const InfoOverlay = () => {
             duration: 1,
           },
         }}
-        className="fixed relative flex top-[-1px] h-[80%] p-5 w-full bg-smain2  z-10"
+        className="relative flex md:flex-col top-[-1px] h-[80%] md:h-[92%] p-5 md:p-3 sm:p-2 w-full bg-smain2 z-10 overflow-hidden"
         style={{
           background: 'var(--csmain2) url("highlightsimg.png")',
           backgroundSize: 'contain ',
@@ -228,24 +228,24 @@ const InfoOverlay = () => {
           backgroundRepeat: 'no-repeat',
         }}
       >
-        <div className="text-sacc text-5xl font-bold max-w-[25%] leading-[52px] z-10 ">
+        <div className="text-sacc text-5xl md:text-2xl font-bold max-w-[25%] md:max-w-full leading-[52px] md:leading-normal z-10 ">
           Copernicus Data Space Ecosystem Highlights
         </div>
 
-        <div className="z-10 w-full h-full">
+        <div className="z-10 w-full h-full md:relative md:flex-1 md:min-h-0 md:overflow-y-auto md:pb-[70px]">
           {/** RENDER CUSTOM COMPONENT */}
           <AnimatePresence mode="wait">
             {Component && <Component key={'image-overlay-' + id} data={data} />}
           </AnimatePresence>
-          <span className="remove-ss">
-            <InfoNavigation
-              combinedSlides={combinedSlides}
-              clearSliderInterval={clearSliderInterval}
-              setActiveSlide={setActiveSlideClick}
-              activeSlide={activeSlide}
-            />
-          </span>
         </div>
+        <span className="remove-ss">
+          <InfoNavigation
+            combinedSlides={combinedSlides}
+            clearSliderInterval={clearSliderInterval}
+            setActiveSlide={setActiveSlideClick}
+            activeSlide={activeSlide}
+          />
+        </span>
         <div className="absolute w-full flex justify-between items-center bottom-0 left-0 p-5 z-10">
           <div className="flex gap-x-3 items-center">
             <div className="bg-transparent border border-white h-[30px]">

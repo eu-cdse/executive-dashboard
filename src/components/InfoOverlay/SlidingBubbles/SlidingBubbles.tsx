@@ -15,12 +15,15 @@ import SlidingLine from './SlidingLine';
 import { bigBubbleRight, bigBubbleTop, bigBubbleWidth } from './config';
 import { formatValue } from '@/functions';
 import { useConfiguration } from '@/store/ConfigurationsProvider';
+import useWindowSize from '@/hooks/useWindowSize';
+import { computedStyle } from '@/common/getChartStyles';
 
 const SlidingBubbles = () => {
   const [cref, setCref] = useState(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const p = useDataStore((state) => state.data);
   const { getGroup } = useConfiguration();
+  const { width } = useWindowSize();
 
   useEffect(() => {
     if (containerRef?.current) setCref(containerRef);
@@ -91,6 +94,60 @@ const SlidingBubbles = () => {
     return (sum += num);
   }, 0);
   let parsedTotalValue = formatValue(totalValue, 'B', false, 2);
+
+  let isMobile = width <= 767;
+  if (isMobile) {
+    return (
+      <div className="w-full h-full flex flex-col items-center gap-4 p-4 overflow-y-auto relative z-20">
+        <motion.div
+          initial={{ scale: 0, opacity: 0 }}
+          animate={{
+            scale: 1,
+            opacity: 1,
+            transition: { duration: 0.6, type: 'spring', stiffness: 80 },
+          }}
+          className="bg-white rounded-full flex flex-col items-center justify-center w-[70vw] max-w-[260px] h-[70vw] max-h-[260px] flex-shrink-0 p-4"
+        >
+          <div className="w-12 mb-2">
+            <OverlayIcons icon="totalVolume" />
+          </div>
+          <div className="text-sm text-smain2 text-center font-bold leading-tight">
+            <span>The ecosystem holds a </span>
+            <span className="text-ssec">complete archive of Sentinel data</span>
+          </div>
+          <div className="text-smain2 text-xl font-bold mt-1">
+            {parsedTotalValue}
+          </div>
+        </motion.div>
+        <div className="grid grid-cols-2 gap-3 w-full">
+          {missionData.map(({ Icon, text, minText, value }, i) => (
+            <motion.div
+              key={'mb-' + i}
+              initial={{ scale: 0, opacity: 0 }}
+              animate={{
+                scale: 1,
+                opacity: 1,
+                transition: {
+                  duration: 0.5,
+                  delay: 0.2 + i * 0.1,
+                  type: 'spring',
+                  stiffness: 80,
+                },
+              }}
+              className="bg-white rounded-lg flex flex-col items-center justify-center p-3 gap-1"
+            >
+              <Icon width={40} color={computedStyle('--csmain2')} />
+              <div className="text-smain2 text-base font-bold">{text}</div>
+              <div className="text-smain2 text-[10px] text-center leading-tight">
+                {minText}
+              </div>
+              <div className="text-smain2 text-lg font-bold">{value}</div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    );
+  }
 
   const circleVariants = {
     hidden: {

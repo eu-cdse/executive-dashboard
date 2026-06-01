@@ -186,9 +186,13 @@ const Bubbles = ({ data }) => {
       };
     }
   );
-  return values.map((d, i) => (
-    <Bubble key={'image-overlay-' + i + d.text} {...d} i={i} />
-  ));
+  return (
+    <div className="contents md:flex md:flex-col md:items-center md:gap-4 md:relative md:z-20 md:py-4">
+      {values.map((d, i) => (
+        <Bubble key={'image-overlay-' + i + d.text} {...d} i={i} />
+      ))}
+    </div>
+  );
 };
 
 export default Bubbles;

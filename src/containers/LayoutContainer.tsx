@@ -179,7 +179,10 @@ const PeriodSelector: React.FC<{ theme: string }> = memo(() => {
 
 const generateClasses = (width: number) => {
   if (width < windowsSizes.tablet)
-    return { main: 'flex flex-col-reverse overflow-hidden', outlet: ' w-full' };
+    return {
+      main: 'flex flex-col-reverse overflow-hidden h-full',
+      outlet: ' w-full',
+    };
   else
     return {
       main: 'flex justify-center h-full overflow-hidden w-full',

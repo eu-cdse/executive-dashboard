@@ -38,7 +38,7 @@ const SideNavigation: React.FC<{ hideSideNav: boolean }> = memo(
     return (
       <>
         <div
-          className="duration-300  h-full bg-smain2 flex flex-col  justify-between  items-center"
+          className="duration-300  h-full bg-smain2 flex flex-col  items-center"
           style={{
             width: openAni ? '300px' : hideSideNav ? 0 : '70px',
             minWidth: openAni ? '300px' : hideSideNav ? 0 : '70px',
@@ -52,7 +52,7 @@ const SideNavigation: React.FC<{ hideSideNav: boolean }> = memo(
             zIndex: hideSideNav ? 9999 : 1000,
           }}
         >
-          <div className="flex flex-col w-full items-center">
+          <div className="flex flex-col w-full items-center flex-1 overflow-y-auto min-h-0">
             <AnimatePresence>
               {openAni ? (
                 <motion.span
@@ -128,7 +128,7 @@ const SideNavigation: React.FC<{ hideSideNav: boolean }> = memo(
           </div>
 
           {/* FOOTER */}
-          <div className="w-full">
+          <div className="w-full flex-shrink-0">
             <div className="flex w-full p-2 pb-0 flex-row justify-between items-end">
               {openAni && (
                 <div className="flex flex-col">

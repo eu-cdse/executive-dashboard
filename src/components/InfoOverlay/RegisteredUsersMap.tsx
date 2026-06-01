@@ -97,6 +97,67 @@ export const RegisteredUsersMap = () => {
     userEngagement.find((d) => d.id === 'attract15')
   );
 
+  let isMobile = width <= 767;
+  if (isMobile) {
+    return (
+      <motion.div
+        exit={{ opacity: 0 }}
+        className="w-full h-full flex flex-col items-center gap-4 p-4 overflow-y-auto relative z-20"
+      >
+        <motion.div
+          initial={{ opacity: 0, scale: 0 }}
+          animate={{
+            opacity: 1,
+            scale: 1,
+            transition: { duration: 0.4, type: 'spring', stiffness: 100 },
+          }}
+          className="w-[70vw] max-w-[260px] h-[70vw] max-h-[260px] flex flex-col text-center items-center justify-center bss rounded-full flex-shrink-0"
+        >
+          <UserIcon width={50} color={computedStyle('--csmain2')} />
+          <div className="text-smain2 text-lg text-center px-2">
+            {total_number.label}
+          </div>
+          <div className="text-smain2 text-2xl font-bold">
+            {total_number.value}
+          </div>
+        </motion.div>
+        <div className="grid grid-cols-2 gap-3 w-full">
+          {itemsData.map((d, i) => (
+            <motion.div
+              key={'ruwm' + i}
+              initial={{ opacity: 0, scale: 0 }}
+              animate={{
+                opacity: 1,
+                scale: 1,
+                transition: {
+                  duration: 0.5,
+                  delay: 0.2 + i * 0.1,
+                  type: 'spring',
+                  stiffness: 80,
+                },
+              }}
+              className="bss rounded-lg p-3 flex flex-col items-center gap-1"
+            >
+              <div
+                style={{ color: d.color }}
+                className="font-medium text-center text-base leading-tight"
+              >
+                {d.name}
+              </div>
+              <img src={d.key + '.png'} className="w-20 h-auto" alt="" />
+              <div className="flex gap-x-2 items-center">
+                <UserIcon width={16} color={d.color} />
+                <div style={{ color: d.color }} className="text-xl font-medium">
+                  {d.value}
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </motion.div>
+    );
+  }
+
   let verySmall = height < 880;
   let scale = width < 1500 || height < 1030 ? (verySmall ? 0.6 : 0.8) : 1;
   return (

@@ -84,7 +84,7 @@ export const MissionSnapShotHighlights = () => {
   );
 
   return (
-    <div className="flex w-11/12 gap-x-2 h-full items-center">
+    <div className="flex w-11/12 gap-x-2 h-full items-center md:grid md:grid-cols-2 md:gap-2 md:w-full md:h-auto md:items-stretch">
       {missionsData.map(({ data, Icon, name }, i) => (
         <motion.div
           key={'a' + i}
@@ -104,7 +104,7 @@ export const MissionSnapShotHighlights = () => {
             scale: 0,
             transition: { duration: 0.5, delay: 0.1 + i * 0.1 },
           }}
-          className="relative grid-item bss rounded-lg min-w-[200px] max-h-[590px]"
+          className="relative grid-item bss rounded-lg min-w-[200px] max-h-[590px] md:min-w-0 md:max-h-none"
         >
           <div className="flex flex-col items-center py-3 h-full">
             <Icon color={computedStyle('--csmain2')} width={100} height={100} />
