@@ -34,6 +34,8 @@ interface MetricPropsInfo {
   lockTimeline?: boolean; // Prevents user from changing the timeline
   calcOperation?: string; // Sets calculation operation for metric, instead of only summing values it can also calculate average, min, max, etc. (only avergae is implemented for now)
   isTimelinessHistogram?: boolean;
+  conditionOperation?: 'sum' | 'subtract'; // Determines whether to sum or subtract values when multiple conditions are provided (default: 'sum')
+  conditionLabels?: string[]; // When set, each condition's values are summed independently and displayed as separate items with these labels (e.g. ['Requests', 'Processing Units'])
 }
 
 export interface MetricInfo {

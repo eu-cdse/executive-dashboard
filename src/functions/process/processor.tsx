@@ -20,6 +20,19 @@ import {
 import { GaugeClItem, GaugeItem } from '@/components/Gauge/GaugeWrapper';
 import moment from 'moment';
 
+// Generate a color dynamically using HSL (golden angle for good distribution)
+const generateFallbackColor = (index: number): string =>
+  `hsl(${(index * 137.5) % 360}, 70%, 60%)`;
+
+// Returns a predefined chart color if available, otherwise a dynamically
+// generated fallback color
+const getColor = (index: number): string => {
+  if (index < chartColors.length) {
+    return chartColors[index];
+  }
+  return generateFallbackColor(index);
+};
+
 export interface DetailedGraph {
   labels: string[];
   series: number[];
@@ -82,10 +95,8 @@ export class Processor {
 
     let values = this.checkConditionAndMerge(true);
     let codel = this.codelistRaw[codelist];
-
     let subgroup = subGroup || codelist_subgroup;
     if (subgroup) codel = codel.filter((c) => c[codelist_key] === subgroup);
-
     return codel.map(
       (c) => values[c.key] || { product: c.key, value: null, timestamp: null }
     );
@@ -264,7 +275,7 @@ export class Processor {
       codelist_reduce,
       codelist_reverse_reduce,
       productKey,
-      props: { dontgroup, unit, isTimelinessHistogram },
+      props: { dontgroup, unit, isTimelinessHistogram, conditionLabels },
     } = this.metric;
     let cl = this.codelistRaw[codelist] && [...this.codelistRaw[codelist]];
     let labels = [],
@@ -272,6 +283,32 @@ export class Processor {
       colors = [],
       timestamp = null,
       detailed = null;
+
+    // Aggregate each condition independently when conditionLabels is set
+    // for example conditions [kpi_requests, kpi_pu] with conditionLabels [API Requests, PU CON] will show two separate bars instead of merging them into one
+    if (conditionLabels?.length) {
+      let c = this.metric.conditions;
+      c = this.getConditions(c);
+      if (c?.length) {
+        c.forEach((con, i) => {
+          const conditionValues = this.data[con]?.values;
+          if (!conditionValues) return;
+          let sum = 0;
+          let latestTimestamp = null;
+          conditionValues.forEach((item) => {
+            sum += item.value ?? 0;
+            if (!latestTimestamp || item.timestamp > latestTimestamp)
+              latestTimestamp = item.timestamp;
+          });
+          labels.push(conditionLabels[i] || con);
+          series.push(sum);
+          if (!timestamp || latestTimestamp > timestamp)
+            timestamp = latestTimestamp;
+        });
+      }
+      colors = labels.map((_, i) => getColor(i));
+      return { labels, series, detailed, colors, timestamp };
+    }
 
     // Reduce codelist if necessary
     if (this.reduce_list && codelist_reduce)
@@ -384,8 +421,8 @@ export class Processor {
         product: string;
         value: number;
       }[];
-      labels = items.map((i) => i.product);
-      series = items.map((i) => i.value);
+      labels = items?.map((i) => i.product) ?? [];
+      series = items?.map((i) => i.value) ?? [];
       detailed = null;
     }
 
@@ -406,7 +443,8 @@ export class Processor {
     } */
     let ch =
       codelist_reduce && codelist_reverse_reduce ? codelist_reduce.length : 0;
-    colors = labels.map((_, i) => chartColors[i + ch]);
+
+    colors = labels.map((_, i) => getColor(i + ch));
 
     return {
       labels,
@@ -533,6 +571,7 @@ export class Processor {
     ...arrays
   ): [SortedItemValue[], { [key: string]: SortedItemValue[] }] {
     let merged = {};
+    const operation = this.metric.props?.conditionOperation || 'sum';
 
     arrays.forEach((array) => {
       if (array === undefined || array === null) {
@@ -540,10 +579,15 @@ export class Processor {
       }
 
       array.forEach((obj) => {
-        if (obj.product in merged) {
-          merged[obj.product.toLowerCase()].value += obj.value;
+        const key = obj.product.toLowerCase();
+        if (key in merged) {
+          if (operation === 'subtract') {
+            merged[key].value -= obj.value;
+          } else {
+            merged[key].value += obj.value;
+          }
         } else {
-          merged[obj.product.toLowerCase()] = { ...obj };
+          merged[key] = { ...obj };
         }
       });
     });
@@ -564,7 +608,7 @@ export class Processor {
       codelist,
       codelist_reduce,
       codelist_reverse_reduce,
-      props: { dontgroup, unit, timelineLabel },
+      props: { dontgroup, unit, timelineLabel, conditionLabels },
       sumConditionsTimelines,
     } = this.metric;
     conditions = this.getConditions(conditions, true);
@@ -575,12 +619,92 @@ export class Processor {
     if (!conditions || !metrics) {
       return [];
     }
+
+    // Define skipped function for segment styling
+    const skipped = (ctx, value) =>
+      ctx.p0.skip || ctx.p1.skip ? value : undefined;
+
+    // Handle conditionLabels - treat each condition as a separate line
+    if (conditionLabels?.length) {
+      const allLines = [];
+      let mergedTimestamps = [];
+
+      conditions.forEach((con, conditionIndex) => {
+        let timeline = metrics.find(
+          (m) => m.metric === con || m.metric === con + '_daily'
+        );
+
+        if (!timeline?.timestamps) {
+          return;
+        }
+
+        let combined = timeline.timestamps.map((timestamp, i) => ({
+          timestamp,
+          values: timeline.values[i],
+        }));
+
+        // sort combined array by timestamp
+        combined.sort((a, b) => a.timestamp - b.timestamp);
+
+        // map sorted combined array back to separate arrays
+        timeline.timestamps = combined.map((el) => el.timestamp);
+        timeline.values = combined.map((el) => el.values);
+
+        // Use the longest timestamp array
+        if (timeline.timestamps.length > mergedTimestamps.length) {
+          mergedTimestamps = timeline.timestamps?.map((ts) => ts * 1000);
+        }
+
+        // Sum all values for this condition at each timestamp
+        const aggregatedData = timeline.values.map((valueArray, timeIndex) => {
+          const sum = valueArray.reduce((acc, val) => acc + (val ?? 0), 0);
+          return {
+            y: sum,
+            x: new Date(timeline.timestamps[timeIndex] * 1000).toISOString(),
+          };
+        });
+
+        const { r, g, b } = hexToRgb(
+          computedStyle(chartColors[conditionIndex] || '--chartcol1')
+        );
+        const color = getColor(conditionIndex);
+        const resolvedColor = color.startsWith('--')
+          ? computedStyle(color)
+          : color;
+
+        const lineConfig = {
+          label: conditionLabels[conditionIndex] || con,
+          data: aggregatedData,
+          borderColor: resolvedColor,
+          backgroundColor: resolvedColor,
+          lineTension: 0.3,
+          segment: {
+            borderColor: (ctx) => skipped(ctx, `rgba(${r},${g},${b},0.5)`),
+            borderDash: (ctx) => skipped(ctx, [6, 6]),
+          },
+          spanGaps: true,
+        };
+
+        allLines.push(lineConfig);
+      });
+
+      return [
+        {
+          unit,
+          timestamps: mergedTimestamps,
+          groups: {
+            group1: allLines,
+          },
+          missing: this.getMissingTimelinesDates(),
+          isDailyTimeline: this.isDailyTimeline,
+        },
+      ];
+    }
+
     let ch =
       codelist_reduce && codelist_reverse_reduce
         ? codelist_reduce.length - 1
         : 0;
-    const skipped = (ctx, value) =>
-      ctx.p0.skip || ctx.p1.skip ? value : undefined;
 
     const timelines = conditions
       .map((c) => {

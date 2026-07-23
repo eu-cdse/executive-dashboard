@@ -12,3 +12,4 @@ export { default as Sentinel3 } from './Panels/MissionSnapshot/Sentinel3Panel';
 export { default as Sentinel5P } from './Panels/MissionSnapshot/Sentinel5PPanel';
 export { default as Descriptions } from './Panels/Descriptions/Descriptions';
 export { default as CCMStatistics } from './Panels/CCMStatistics';
+export { default as CLMSStatistics } from './Panels/CLMSStatistics';

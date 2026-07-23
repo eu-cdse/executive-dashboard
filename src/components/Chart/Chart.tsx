@@ -2,6 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import React, { useEffect, useState } from 'react';
 import { Piechartjs } from '../Piechart';
 import { BarHorizontal, BarVertical } from '../Bar';
+import { Counter } from '../Counter';
 import {
   MetricInfo,
   useConfigurationStore,
@@ -28,6 +29,7 @@ enum ChartType {
   BarHorizontal = 'bar-horizontal',
   Timeline = 'timeline',
   TimelinessHistogram = 'timeliness-histogram',
+  Counter = 'counter',
 }
 
 export const Chart: React.FC<{
@@ -37,7 +39,8 @@ export const Chart: React.FC<{
   reduceList?: boolean;
   singleGroup?: boolean;
   tag?: string;
-}> = ({ type, metric, justGraph, reduceList, singleGroup, tag }) => {
+  topN?: number;
+}> = ({ type, metric, justGraph, reduceList, singleGroup, tag, topN }) => {
   const [showTimelines, setTimelines] = useState(false);
   const [activeData, setActiveData] = useState(null);
   const { width } = useWindowSize();
@@ -97,8 +100,49 @@ export const Chart: React.FC<{
     p.setTimeframe(activePeriod);
     let data = p.graphsData(metric, null, reduceList, singleGroup);
     if (showTimelines && data?.timelines?.length === 0) setTimelines(false);
+
+    // Apply topN filtering if specified
+    if (topN && data?.graphs?.labels?.length > topN) {
+      const { labels, series, colors } = data.graphs;
+
+      // Create array of indices sorted by value (descending)
+      const indexedData = series.map((value, index) => ({ value, index }));
+      indexedData.sort((a, b) => b.value - a.value);
+
+      // Take top N indices
+      const topIndices = indexedData.slice(0, topN).map((item) => item.index);
+      const otherIndices = indexedData.slice(topN).map((item) => item.index);
+
+      // Sum up "Others"
+      const othersValue = otherIndices.reduce(
+        (sum, idx) => sum + series[idx],
+        0
+      );
+
+      // Filter to top N
+      const filteredLabels = topIndices.map((idx) => labels[idx]);
+      const filteredSeries = topIndices.map((idx) => series[idx]);
+      const filteredColors = colors
+        ? topIndices.map((idx) => colors[idx])
+        : undefined;
+
+      // Add "Others" if there's any remaining data
+      if (othersValue > 0) {
+        filteredLabels.push('Others');
+        filteredSeries.push(othersValue);
+        if (filteredColors) filteredColors.push('#808080');
+      }
+
+      data.graphs = {
+        ...data.graphs,
+        labels: filteredLabels,
+        series: filteredSeries,
+        colors: filteredColors,
+      };
+    }
+
     setActiveData(data);
-  }, [metric, activePeriod]);
+  }, [metric, activePeriod, topN]);
 
   // Transform big bar graphs (more than 9 products) to piecharts on small screens
   type =
@@ -108,17 +152,18 @@ export const Chart: React.FC<{
     activeData?.graphs?.labels?.length > 9
       ? 'pie'
       : type;
-
   return (
     <>
       <motion.div
-        className={`w-full h-full flex ${
+        className={`w-full ${
+          type === ChartType.Counter && !showTimelines ? 'h-auto' : 'h-full'
+        } flex ${
           justGraph ? 'pt-1' : width < 450 ? 'px-2 bss pt-3' : 'px-7 bss pt-3'
         } flex-col  rounded-lg relative items-center justify-between`}
         layoutId={type !== ChartType.TimelinessHistogram && metric.id}
         ref={wrapperRef}
       >
-        {!justGraph && (
+        {!justGraph && type !== ChartType.Counter && (
           <div className="flex justify-start  items-center w-full">
             <div
               {...(activeData?.tooltipItems &&
@@ -254,6 +299,22 @@ export const Chart: React.FC<{
                         lockTimeline={metric.props.lockTimeline}
                       />
                     </motion.div>
+                  )) ||
+                  (type === ChartType.Counter && (
+                    <>
+                      <div className="w-full h-full flex items-center justify-center">
+                        <Counter
+                          key={'counter' + activeData?.name}
+                          metric={metric}
+                          nobss
+                        />
+                      </div>
+                      <TimePeriodTag
+                        shouldShow={!!activeData?.selectedPeriod}
+                        timePeriod={activeData?.selectedPeriod}
+                        justGraph={justGraph}
+                      />
+                    </>
                   ))}
               </>
             )) ||

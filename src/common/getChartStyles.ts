@@ -12,7 +12,8 @@ export const getChartStyles = (
   let ac = !!colors;
   let cols = ac ? colors : chartColors;
   const bgColor = cols.map((c) => {
-    return computedStyle(c);
+    // Check if it's a CSS variable (starts with '--') or a direct color value
+    return c.startsWith('--') ? computedStyle(c) : c;
   });
   const styl = { bgc: [], bc: [], offs: [] };
   for (let i = 0; i < num; i++) {

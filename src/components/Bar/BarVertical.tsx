@@ -115,7 +115,11 @@ const BarVertical: React.FC<Props> = ({
           name={labels[id]}
           unit={unit}
           histo={histo}
-          color={computedStyle(colorss[id])}
+          color={
+            colorss[id]?.startsWith('--')
+              ? computedStyle(colorss[id])
+              : colorss[id]
+          }
         />
       ),
       elRef: tooltipRef,
@@ -165,7 +169,8 @@ const BarVertical: React.FC<Props> = ({
       datalabels: {
         display: true,
         color:
-          (colorss && colorss.map((c) => computedStyle(c))) ||
+          (colorss &&
+            colorss.map((c) => (c?.startsWith('--') ? computedStyle(c) : c))) ||
           computedStyle('--csmain2'),
         formatter: (n) => {
           if (filteredSeries.every((s) => !s && s !== 0)) return null;

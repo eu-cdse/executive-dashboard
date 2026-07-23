@@ -6,6 +6,7 @@ export enum MainRoutes {
   DESCRIPTIONS = 'descriptions',
   STAGE_PAGE = 'stage-page',
   CCM = 'copernicus-contributing-missions',
+  CLMS = 'clms',
 }
 
 export enum MissionSnapshotRoutes {

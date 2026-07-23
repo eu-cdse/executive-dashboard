@@ -12,6 +12,7 @@ import {
   UserEngagement,
   Descriptions,
   CCMStatistics,
+  CLMSStatistics,
 } from '@/containers';
 import {
   DataAccessedIcon,
@@ -26,6 +27,7 @@ import {
   Sentinel3Icon,
   Sentinel5PIcon,
   CCMDataIcon,
+  CLMSIcon,
 } from '@/containers/Navigation/icons';
 import StagePage from '@/containers/Panels/StagePage';
 import {
@@ -143,6 +145,15 @@ const allPanels: Panel[] = [
     renderPanel: true,
     showPanelOnSidebar: true,
     Icon: CCMDataIcon,
+  },
+  {
+    name: 'CLMS Data',
+    route: MainRoutes.CLMS,
+    Panel: CLMSStatistics,
+    childPanels: [],
+    renderPanel: true,
+    showPanelOnSidebar: true,
+    Icon: CLMSIcon,
   },
   {
     route: MainRoutes.DESCRIPTIONS,

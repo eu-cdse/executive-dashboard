@@ -122,7 +122,11 @@ const Piechartjs: React.FC<Props> = ({
           name={labelss[id]}
           unit={unit}
           histo={histo}
-          color={computedStyle(colorss[id])}
+          color={
+            colorss[id]?.startsWith('--')
+              ? computedStyle(colorss[id])
+              : colorss[id]
+          }
         />
       ),
       elRef: tooltipRef,
