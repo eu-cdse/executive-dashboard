@@ -52,9 +52,6 @@ const CLMSStatistics = () => {
       <div className="grid-item" key={'d0'}>
         <Chart metric={metrics[1][0]} type="bar" reduceList />
       </div>
-      <div className="grid-item" key={'d1'}>
-        <Chart metric={metrics[1][1]} topN={10} type="bar" reduceList />
-      </div>
 
       <div key="divider2" className="text-2xl text-htext">
         <div className="w-max">
